@@ -56,7 +56,7 @@ python test_1_2.py
 下载
 
 ```
-git clone https://github.com/MissChengrj/-.git
+git clone https://github.com/MissChengrj/-_-.git
 ```
 
 编译
