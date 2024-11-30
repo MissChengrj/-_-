@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from test_2_interfaces/msg/ThreeNumbers.msg
+// generated code does not contain a copyright notice
+
+
+module test_2_interfaces {
+  module msg {
+    struct ThreeNumbers {
+      float num1;
+
+      float num2;
+
+      float num3;
+    };
+  };
+};

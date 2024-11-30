@@ -1,0 +1,90 @@
+[0.334s] Invoking command in '/home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_sum_product:/home/jerry/Code/ROS2/test_2/install:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/lib:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/local/cuda-11.7/lib64 /usr/bin/cmake --build /home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials -- -j12 -l12
+[0.408s] [ 11%] [34m[1mAutomatic MOC and UIC for target rviz_plugin_tutorials[0m
+[0.932s] [ 11%] Built target rviz_plugin_tutorials_autogen
+[0.952s] [35m[1mConsolidate compiler generated dependencies of target rviz_plugin_tutorials[0m
+[0.987s] [ 22%] [32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/rviz_plugin_tutorials_autogen/mocs_compilation.cpp.o[0m
+[0.988s] [ 33%] [32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/my_rviz_panel.cpp.o[0m
+[4.650s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:8:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRvizPanel[m[K’ does not name a type
+[4.651s]     8 | [01;31m[KMyRvizPanel[m[K::MyRvizPanel(QWidget* parent)
+[4.651s]       | [01;31m[K^~~~~~~~~~~[m[K
+[4.652s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:37:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRvizPanel[m[K’ does not name a type
+[4.653s]    37 | [01;31m[KMyRvizPanel[m[K::~MyRvizPanel() = default;
+[4.653s]       | [01;31m[K^~~~~~~~~~~[m[K
+[4.653s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:39:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRvizPanel[m[K’ has not been declared
+[4.653s]    39 | void [01;31m[KMyRvizPanel[m[K::onButtonClicked() {
+[4.653s]       |      [01;31m[K^~~~~~~~~~~[m[K
+[4.658s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:[m[K In function ‘[01m[Kvoid my_rviz_plugin::onButtonClicked()[m[K’:
+[4.658s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:40:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[4.658s]    40 |   if (![01;31m[Kclient_[m[K->wait_for_service(std::chrono::seconds(1))) {
+[4.658s]       |        [01;31m[K^~~~~~~[m[K
+[4.662s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.663s]                  from [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.hpp:8[m[K,
+[4.663s]                  from [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:1[m[K:
+[4.663s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:41:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[4.663s]    41 |     RCLCPP_ERROR([01;31m[Knode_[m[K->get_logger(), "Service not available.");
+[4.663s]       |                  [01;31m[K^~~~~[m[K
+[4.663s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:41:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.663s]    41 |     [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "Service not available.");
+[4.663s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.663s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:41:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.664s]    41 |     [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "Service not available.");
+[4.664s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.664s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:41:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.664s]    41 |     [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "Service not available.");
+[4.664s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.668s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:46:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ka_input_[m[K’ was not declared in this scope
+[4.668s]    46 |   request->a = [01;31m[Ka_input_[m[K->text().toFloat();
+[4.668s]       |                [01;31m[K^~~~~~~~[m[K
+[4.672s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:47:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kb_input_[m[K’ was not declared in this scope
+[4.673s]    47 |   request->b = [01;31m[Kb_input_[m[K->text().toFloat();
+[4.673s]       |                [01;31m[K^~~~~~~~[m[K
+[4.679s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:48:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kc_input_[m[K’ was not declared in this scope
+[4.679s]    48 |   request->c = [01;31m[Kc_input_[m[K->text().toFloat();
+[4.679s]       |                [01;31m[K^~~~~~~~[m[K
+[4.691s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:49:24:[m[K [01;31m[Kerror: [m[K‘[01m[Koperation_input_[m[K’ was not declared in this scope
+[4.692s]    49 |   request->operation = [01;31m[Koperation_input_[m[K->text().toStdString();
+[4.692s]       |                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.696s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:51:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[4.696s]    51 |   auto future = [01;31m[Kclient_[m[K->async_send_request(request);
+[4.696s]       |                 [01;31m[K^~~~~~~[m[K
+[4.701s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:54:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_button_[m[K’ was not declared in this scope
+[4.701s]    54 |     [01;31m[Ksend_button_[m[K->setText(QString::number(response->result));
+[4.701s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.705s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.706s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.706s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.706s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.706s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.706s]                  from [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.hpp:8[m[K,
+[4.706s]                  from [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:1[m[K:
+[4.706s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:56:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[4.706s]    56 |     RCLCPP_ERROR([01;31m[Knode_[m[K->get_logger(), "Service call failed: %s", e.what());
+[4.706s]       |                  [01;31m[K^~~~~[m[K
+[4.706s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:56:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.706s]    56 |     [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "Service call failed: %s", e.what());
+[4.706s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.706s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:56:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.706s]    56 |     [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "Service call failed: %s", e.what());
+[4.706s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.706s] [01m[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:56:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.706s]    56 |     [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "Service call failed: %s", e.what());
+[4.707s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[5.270s] gmake[2]: *** [CMakeFiles/rviz_plugin_tutorials.dir/build.make:160: CMakeFiles/rviz_plugin_tutorials.dir/src/my_rviz_panel.cpp.o] Error 1
+[5.270s] gmake[2]: *** Waiting for unfinished jobs....
+[13.489s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rviz_plugin_tutorials.dir/all] Error 2
+[13.489s] gmake: *** [Makefile:146: all] Error 2
+[13.492s] Invoked command in '/home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials' returned '2': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_sum_product:/home/jerry/Code/ROS2/test_2/install:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/lib:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/local/cuda-11.7/lib64 /usr/bin/cmake --build /home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials -- -j12 -l12

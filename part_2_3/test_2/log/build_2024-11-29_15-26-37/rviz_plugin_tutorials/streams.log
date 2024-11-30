@@ -1,0 +1,43 @@
+[0.348s] Invoking command in '/home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_sum_product:/home/jerry/Code/ROS2/test_2/install:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/lib:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/local/cuda-11.7/lib64 /usr/bin/cmake --build /home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials -- -j12 -l12
+[0.391s] [ 11%] [34m[1mAutomatic MOC and UIC for target rviz_plugin_tutorials[0m
+[0.414s] [ 11%] Built target rviz_plugin_tutorials_autogen
+[0.430s] [35m[1mConsolidate compiler generated dependencies of target rviz_plugin_tutorials[0m
+[0.464s] [ 22%] [32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/my_rviz_panel.cpp.o[0m
+[5.465s] [ 33%] [32m[1mLinking CXX shared library librviz_plugin_tutorials.so[0m
+[8.209s] [100%] Built target rviz_plugin_tutorials
+[8.219s] Invoked command in '/home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_sum_product:/home/jerry/Code/ROS2/test_2/install:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/lib:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/local/cuda-11.7/lib64 /usr/bin/cmake --build /home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials -- -j12 -l12
+[8.227s] Invoking command in '/home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_sum_product:/home/jerry/Code/ROS2/test_2/install:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/lib:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/local/cuda-11.7/lib64 /usr/bin/cmake --install /home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials
+[8.235s] -- Install configuration: ""
+[8.235s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/plugin_description.xml
+[8.235s] -- Installing: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/lib/rviz_plugin_tutorials/librviz_plugin_tutorials.so
+[8.243s] -- Set runtime path of "/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/lib/rviz_plugin_tutorials/librviz_plugin_tutorials.so" to ""
+[8.244s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media
+[8.244s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media/flag.dae
+[8.244s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons
+[8.244s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes
+[8.244s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes/Imu.png
+[8.245s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes/Teleop.png
+[8.245s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes/PlantFlag.png
+[8.245s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/lib/rviz_plugin_tutorials/send_test_msgs.py
+[8.245s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/plugin_description.xml
+[8.245s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_tutorials
+[8.245s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_tutorials
+[8.246s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/ament_prefix_path.sh
+[8.246s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/ament_prefix_path.dsv
+[8.246s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/path.sh
+[8.246s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/path.dsv
+[8.246s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.bash
+[8.246s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.sh
+[8.246s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.zsh
+[8.246s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.dsv
+[8.246s] -- Installing: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.dsv
+[8.246s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/ament_index/resource_index/packages/rviz_plugin_tutorials
+[8.246s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_tutorials
+[8.246s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media
+[8.246s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media/flag.dae
+[8.247s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/ament_index/resource_index/rviz_ogre_media_exports/rviz_plugin_tutorials
+[8.247s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.247s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/cmake/rviz_plugin_tutorialsConfig.cmake
+[8.247s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/cmake/rviz_plugin_tutorialsConfig-version.cmake
+[8.247s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.xml
+[8.248s] Invoked command in '/home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_sum_product:/home/jerry/Code/ROS2/test_2/install:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/lib:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/local/cuda-11.7/lib64 /usr/bin/cmake --install /home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials

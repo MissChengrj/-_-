@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bff588996b32c3ef3e9c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rviz_plugin_tutorials",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorials::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorials-0d210a67127c2dcb3899.json",
+					"name" : "rviz_plugin_tutorials",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorials_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorials_autogen-c11075f05c3c4f237dca.json",
+					"name" : "rviz_plugin_tutorials_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorials_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorials_uninstall-435f290515b28d25ca39.json",
+					"name" : "rviz_plugin_tutorials_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e96627494fda2946e64f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials",
+		"source" : "/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

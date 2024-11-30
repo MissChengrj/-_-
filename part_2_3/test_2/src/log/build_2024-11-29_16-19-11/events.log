@@ -1,0 +1,1013 @@
+[0.000000] (-) TimerEvent: {}
+[0.000765] (rviz_plugin_sum_product) JobQueued: {'identifier': 'rviz_plugin_sum_product', 'dependencies': OrderedDict()}
+[0.001111] (rviz_plugin_tutorials) JobQueued: {'identifier': 'rviz_plugin_tutorials', 'dependencies': OrderedDict()}
+[0.001165] (test_2) JobQueued: {'identifier': 'test_2', 'dependencies': OrderedDict()}
+[0.001185] (test_2_interfaces) JobQueued: {'identifier': 'test_2_interfaces', 'dependencies': OrderedDict()}
+[0.001202] (rviz_plugin_sum_product) JobStarted: {'identifier': 'rviz_plugin_sum_product'}
+[0.011399] (rviz_plugin_tutorials) JobStarted: {'identifier': 'rviz_plugin_tutorials'}
+[0.018946] (test_2) JobStarted: {'identifier': 'test_2'}
+[0.028017] (test_2_interfaces) JobStarted: {'identifier': 'test_2_interfaces'}
+[0.035449] (rviz_plugin_sum_product) JobProgress: {'identifier': 'rviz_plugin_sum_product', 'progress': 'cmake'}
+[0.037428] (rviz_plugin_sum_product) Command: {'cmd': ['/usr/bin/cmake', '/home/jerry/Code/ROS2/test_2/src/rviz_plugin_sum_product', '-DCMAKE_INSTALL_PREFIX=/home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_sum_product'], 'cwd': '/home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_sum_product', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'jerry'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/local/cuda-11.7/lib64'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/jerry'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/jerry/Code/ROS2/test_2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jerry/Code/ROS2/test_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jerry'), ('NAME', 'DESKTOP-NCAI8OK'), ('WSL_INTEROP', '/run/WSL/2671_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.7/bin:/home/jerry/anaconda3/bin:/home/jerry/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Program Files (x86)/VMware/VMware Workstation/bin:/mnt/d/Program Files (x86)/Anaconda3:/mnt/d/Program Files (x86)/Anaconda3/Library/mingw-w64/bin:/mnt/d/Program Files (x86)/Anaconda3/Library/usr/bin:/mnt/d/Program Files (x86)/Anaconda3/Library/bin:/mnt/d/Program Files (x86)/Anaconda3/Scripts:/mnt/d/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/Scripts:/mnt/d/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64:/mnt/d/python/Scripts:/mnt/d/python:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/d/opencv/build/x64/vc15/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/d/Matlab R2020a/runtime/win64:/mnt/d/Matlab R2020a/bin:/mnt/d/Matlab R2020a/polyspace/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/Program Files (x86)/CMake/bin:/mnt/d/source/opencv-4.5.5_build/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/lib:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/d/Program Files (x86)/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/d/texlive/2024/bin/windows:/mnt/c/Users/MECHREVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/MECHREVO/.dotnet/tools:/mnt/d/python:/mnt/d/python/Scripts:/mnt/c/Users/MECHREVO/AppData/Local/GitHubDesktop/bin:/mnt/d/source/opencv-4.5.5_build/install/bin:/mnt/d/Users/MECHREVO/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/Program Files/JetBrains/PyCharm 2024.2.3/bin:/mnt/f/PyCharm Community Edition 2024.2.3/bin:/mnt/c/Users/MECHREVO:/snap/bin:/home/root/anaconda3/bin'), ('WT_SESSION', '072a492e-4791-4c0b-b06e-044d98ab4506'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/test_2:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jerry/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_sum_product'), ('CONDA_EXE', '/home/jerry/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py/lib/python3.10/site-packages:/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/local/lib/python3.10/dist-packages:/home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/jerry/anaconda3'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.042251] (rviz_plugin_tutorials) JobProgress: {'identifier': 'rviz_plugin_tutorials', 'progress': 'cmake'}
+[0.045658] (rviz_plugin_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials', '-DCMAKE_INSTALL_PREFIX=/home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials'], 'cwd': '/home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'jerry'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/local/cuda-11.7/lib64'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/jerry'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/jerry/Code/ROS2/test_2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jerry/Code/ROS2/test_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jerry'), ('NAME', 'DESKTOP-NCAI8OK'), ('WSL_INTEROP', '/run/WSL/2671_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.7/bin:/home/jerry/anaconda3/bin:/home/jerry/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Program Files (x86)/VMware/VMware Workstation/bin:/mnt/d/Program Files (x86)/Anaconda3:/mnt/d/Program Files (x86)/Anaconda3/Library/mingw-w64/bin:/mnt/d/Program Files (x86)/Anaconda3/Library/usr/bin:/mnt/d/Program Files (x86)/Anaconda3/Library/bin:/mnt/d/Program Files (x86)/Anaconda3/Scripts:/mnt/d/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/Scripts:/mnt/d/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64:/mnt/d/python/Scripts:/mnt/d/python:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/d/opencv/build/x64/vc15/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/d/Matlab R2020a/runtime/win64:/mnt/d/Matlab R2020a/bin:/mnt/d/Matlab R2020a/polyspace/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/Program Files (x86)/CMake/bin:/mnt/d/source/opencv-4.5.5_build/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/lib:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/d/Program Files (x86)/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/d/texlive/2024/bin/windows:/mnt/c/Users/MECHREVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/MECHREVO/.dotnet/tools:/mnt/d/python:/mnt/d/python/Scripts:/mnt/c/Users/MECHREVO/AppData/Local/GitHubDesktop/bin:/mnt/d/source/opencv-4.5.5_build/install/bin:/mnt/d/Users/MECHREVO/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/Program Files/JetBrains/PyCharm 2024.2.3/bin:/mnt/f/PyCharm Community Edition 2024.2.3/bin:/mnt/c/Users/MECHREVO:/snap/bin:/home/root/anaconda3/bin'), ('WT_SESSION', '072a492e-4791-4c0b-b06e-044d98ab4506'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/test_2:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jerry/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_tutorials'), ('CONDA_EXE', '/home/jerry/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py/lib/python3.10/site-packages:/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/local/lib/python3.10/dist-packages:/home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/jerry/anaconda3'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.100105] (-) TimerEvent: {}
+[0.200521] (-) TimerEvent: {}
+[0.300893] (-) TimerEvent: {}
+[0.316222] (test_2_interfaces) JobProgress: {'identifier': 'test_2_interfaces', 'progress': 'cmake'}
+[0.318413] (test_2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/jerry/Code/ROS2/test_2/src/test_2_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces'], 'cwd': '/home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'jerry'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/local/cuda-11.7/lib64'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/jerry'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/jerry/Code/ROS2/test_2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jerry/Code/ROS2/test_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jerry'), ('NAME', 'DESKTOP-NCAI8OK'), ('WSL_INTEROP', '/run/WSL/2671_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.7/bin:/home/jerry/anaconda3/bin:/home/jerry/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Program Files (x86)/VMware/VMware Workstation/bin:/mnt/d/Program Files (x86)/Anaconda3:/mnt/d/Program Files (x86)/Anaconda3/Library/mingw-w64/bin:/mnt/d/Program Files (x86)/Anaconda3/Library/usr/bin:/mnt/d/Program Files (x86)/Anaconda3/Library/bin:/mnt/d/Program Files (x86)/Anaconda3/Scripts:/mnt/d/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/Scripts:/mnt/d/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64:/mnt/d/python/Scripts:/mnt/d/python:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/d/opencv/build/x64/vc15/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/d/Matlab R2020a/runtime/win64:/mnt/d/Matlab R2020a/bin:/mnt/d/Matlab R2020a/polyspace/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/Program Files (x86)/CMake/bin:/mnt/d/source/opencv-4.5.5_build/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/lib:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/d/Program Files (x86)/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/d/texlive/2024/bin/windows:/mnt/c/Users/MECHREVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/MECHREVO/.dotnet/tools:/mnt/d/python:/mnt/d/python/Scripts:/mnt/c/Users/MECHREVO/AppData/Local/GitHubDesktop/bin:/mnt/d/source/opencv-4.5.5_build/install/bin:/mnt/d/Users/MECHREVO/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/Program Files/JetBrains/PyCharm 2024.2.3/bin:/mnt/f/PyCharm Community Edition 2024.2.3/bin:/mnt/c/Users/MECHREVO:/snap/bin:/home/root/anaconda3/bin'), ('WT_SESSION', '072a492e-4791-4c0b-b06e-044d98ab4506'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/test_2:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jerry/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces'), ('CONDA_EXE', '/home/jerry/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py/lib/python3.10/site-packages:/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/local/lib/python3.10/dist-packages:/home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/jerry/anaconda3'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.401039] (-) TimerEvent: {}
+[0.501343] (-) TimerEvent: {}
+[0.522629] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.5.0\n'}
+[0.581186] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.5.0\n'}
+[0.601491] (-) TimerEvent: {}
+[0.701840] (-) TimerEvent: {}
+[0.714910] (test_2_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.5.0\n'}
+[0.801992] (-) TimerEvent: {}
+[0.902362] (-) TimerEvent: {}
+[0.939471] (test_2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/test_2', 'build', '--build-base', '/home/jerry/Code/ROS2/test_2/src/build/test_2/build', 'install', '--record', '/home/jerry/Code/ROS2/test_2/src/build/test_2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jerry/Code/ROS2/test_2/src/test_2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'jerry', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/local/cuda-11.7/lib64', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/jerry', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/jerry/Code/ROS2/test_2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jerry/Code/ROS2/test_2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jerry', 'NAME': 'DESKTOP-NCAI8OK', 'WSL_INTEROP': '/run/WSL/2671_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-11.7/bin:/home/jerry/anaconda3/bin:/home/jerry/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Program Files (x86)/VMware/VMware Workstation/bin:/mnt/d/Program Files (x86)/Anaconda3:/mnt/d/Program Files (x86)/Anaconda3/Library/mingw-w64/bin:/mnt/d/Program Files (x86)/Anaconda3/Library/usr/bin:/mnt/d/Program Files (x86)/Anaconda3/Library/bin:/mnt/d/Program Files (x86)/Anaconda3/Scripts:/mnt/d/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/Scripts:/mnt/d/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64:/mnt/d/python/Scripts:/mnt/d/python:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/d/opencv/build/x64/vc15/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/d/Matlab R2020a/runtime/win64:/mnt/d/Matlab R2020a/bin:/mnt/d/Matlab R2020a/polyspace/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/Program Files (x86)/CMake/bin:/mnt/d/source/opencv-4.5.5_build/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/lib:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/d/Program Files (x86)/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/d/texlive/2024/bin/windows:/mnt/c/Users/MECHREVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/MECHREVO/.dotnet/tools:/mnt/d/python:/mnt/d/python/Scripts:/mnt/c/Users/MECHREVO/AppData/Local/GitHubDesktop/bin:/mnt/d/source/opencv-4.5.5_build/install/bin:/mnt/d/Users/MECHREVO/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/Program Files/JetBrains/PyCharm 2024.2.3/bin:/mnt/f/PyCharm Community Edition 2024.2.3/bin:/mnt/c/Users/MECHREVO:/snap/bin:/home/root/anaconda3/bin', 'WT_SESSION': '072a492e-4791-4c0b-b06e-044d98ab4506', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/test_2:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/jerry/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'PWD': '/home/jerry/Code/ROS2/test_2/src/build/test_2', 'CONDA_EXE': '/home/jerry/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jerry/Code/ROS2/test_2/src/build/test_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py/lib/python3.10/site-packages:/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/local/lib/python3.10/dist-packages:/home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/jerry/anaconda3', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.002478] (-) TimerEvent: {}
+[1.102819] (-) TimerEvent: {}
+[1.203126] (-) TimerEvent: {}
+[1.235560] (test_2) StdoutLine: {'line': b'running egg_info\n'}
+[1.236707] (test_2) StdoutLine: {'line': b'creating ../build/test_2/test_2.egg-info\n'}
+[1.237233] (test_2) StdoutLine: {'line': b'writing ../build/test_2/test_2.egg-info/PKG-INFO\n'}
+[1.237696] (test_2) StdoutLine: {'line': b'writing dependency_links to ../build/test_2/test_2.egg-info/dependency_links.txt\n'}
+[1.238036] (test_2) StdoutLine: {'line': b'writing entry points to ../build/test_2/test_2.egg-info/entry_points.txt\n'}
+[1.238508] (test_2) StdoutLine: {'line': b'writing requirements to ../build/test_2/test_2.egg-info/requires.txt\n'}
+[1.238601] (test_2) StdoutLine: {'line': b'writing top-level names to ../build/test_2/test_2.egg-info/top_level.txt\n'}
+[1.238690] (test_2) StdoutLine: {'line': b"writing manifest file '../build/test_2/test_2.egg-info/SOURCES.txt'\n"}
+[1.240978] (test_2) StdoutLine: {'line': b"reading manifest file '../build/test_2/test_2.egg-info/SOURCES.txt'\n"}
+[1.241299] (test_2) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.242059] (test_2) StdoutLine: {'line': b"writing manifest file '../build/test_2/test_2.egg-info/SOURCES.txt'\n"}
+[1.242463] (test_2) StdoutLine: {'line': b'running build\n'}
+[1.242604] (test_2) StdoutLine: {'line': b'running build_py\n'}
+[1.242721] (test_2) StdoutLine: {'line': b'creating /home/jerry/Code/ROS2/test_2/src/build/test_2/build\n'}
+[1.242949] (test_2) StdoutLine: {'line': b'creating /home/jerry/Code/ROS2/test_2/src/build/test_2/build/lib\n'}
+[1.243371] (test_2) StdoutLine: {'line': b'creating /home/jerry/Code/ROS2/test_2/src/build/test_2/build/lib/test_2\n'}
+[1.243606] (test_2) StdoutLine: {'line': b'copying test_2/ser_node.py -> /home/jerry/Code/ROS2/test_2/src/build/test_2/build/lib/test_2\n'}
+[1.244040] (test_2) StdoutLine: {'line': b'copying test_2/sub_node.py -> /home/jerry/Code/ROS2/test_2/src/build/test_2/build/lib/test_2\n'}
+[1.244507] (test_2) StdoutLine: {'line': b'copying test_2/__init__.py -> /home/jerry/Code/ROS2/test_2/src/build/test_2/build/lib/test_2\n'}
+[1.244750] (test_2) StdoutLine: {'line': b'copying test_2/cli_node.py -> /home/jerry/Code/ROS2/test_2/src/build/test_2/build/lib/test_2\n'}
+[1.245195] (test_2) StdoutLine: {'line': b'copying test_2/pub_node.py -> /home/jerry/Code/ROS2/test_2/src/build/test_2/build/lib/test_2\n'}
+[1.245835] (test_2) StdoutLine: {'line': b'running install\n'}
+[1.246276] (test_2) StdoutLine: {'line': b'running install_lib\n'}
+[1.247108] (test_2) StdoutLine: {'line': b'creating /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2\n'}
+[1.247428] (test_2) StdoutLine: {'line': b'copying /home/jerry/Code/ROS2/test_2/src/build/test_2/build/lib/test_2/ser_node.py -> /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2\n'}
+[1.247638] (test_2) StdoutLine: {'line': b'copying /home/jerry/Code/ROS2/test_2/src/build/test_2/build/lib/test_2/sub_node.py -> /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2\n'}
+[1.248058] (test_2) StdoutLine: {'line': b'copying /home/jerry/Code/ROS2/test_2/src/build/test_2/build/lib/test_2/__init__.py -> /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2\n'}
+[1.248285] (test_2) StdoutLine: {'line': b'copying /home/jerry/Code/ROS2/test_2/src/build/test_2/build/lib/test_2/cli_node.py -> /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2\n'}
+[1.248487] (test_2) StdoutLine: {'line': b'copying /home/jerry/Code/ROS2/test_2/src/build/test_2/build/lib/test_2/pub_node.py -> /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2\n'}
+[1.248802] (test_2) StdoutLine: {'line': b'byte-compiling /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2/ser_node.py to ser_node.cpython-310.pyc\n'}
+[1.249913] (test_2) StdoutLine: {'line': b'byte-compiling /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2/sub_node.py to sub_node.cpython-310.pyc\n'}
+[1.250370] (test_2) StdoutLine: {'line': b'byte-compiling /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2/__init__.py to __init__.cpython-310.pyc\n'}
+[1.250653] (test_2) StdoutLine: {'line': b'byte-compiling /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2/cli_node.py to cli_node.cpython-310.pyc\n'}
+[1.251059] (test_2) StdoutLine: {'line': b'byte-compiling /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2/pub_node.py to pub_node.cpython-310.pyc\n'}
+[1.251468] (test_2) StdoutLine: {'line': b'running install_data\n'}
+[1.251882] (test_2) StdoutLine: {'line': b'creating /home/jerry/Code/ROS2/test_2/src/install/test_2/share/ament_index\n'}
+[1.252167] (test_2) StdoutLine: {'line': b'creating /home/jerry/Code/ROS2/test_2/src/install/test_2/share/ament_index/resource_index\n'}
+[1.252401] (test_2) StdoutLine: {'line': b'creating /home/jerry/Code/ROS2/test_2/src/install/test_2/share/ament_index/resource_index/packages\n'}
+[1.252627] (test_2) StdoutLine: {'line': b'copying resource/test_2 -> /home/jerry/Code/ROS2/test_2/src/install/test_2/share/ament_index/resource_index/packages\n'}
+[1.252954] (test_2) StdoutLine: {'line': b'copying package.xml -> /home/jerry/Code/ROS2/test_2/src/install/test_2/share/test_2\n'}
+[1.253059] (test_2) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.255448] (test_2) StdoutLine: {'line': b'Copying ../build/test_2/test_2.egg-info to /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2-0.0.0-py3.10.egg-info\n'}
+[1.257191] (test_2) StdoutLine: {'line': b'running install_scripts\n'}
+[1.282165] (test_2) StdoutLine: {'line': b'Installing cli script to /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/test_2\n'}
+[1.282807] (test_2) StdoutLine: {'line': b'Installing pub script to /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/test_2\n'}
+[1.283167] (test_2) StdoutLine: {'line': b'Installing ser script to /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/test_2\n'}
+[1.283278] (test_2) StdoutLine: {'line': b'Installing sub script to /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/test_2\n'}
+[1.283483] (test_2) StdoutLine: {'line': b"writing list of installed files to '/home/jerry/Code/ROS2/test_2/src/build/test_2/install.log'\n"}
+[1.303265] (-) TimerEvent: {}
+[1.307452] (test_2) CommandEnded: {'returncode': 0}
+[1.325930] (test_2) JobEnded: {'identifier': 'test_2', 'rc': 0}
+[1.403386] (-) TimerEvent: {}
+[1.503750] (-) TimerEvent: {}
+[1.604152] (-) TimerEvent: {}
+[1.704504] (-) TimerEvent: {}
+[1.804985] (-) TimerEvent: {}
+[1.905347] (-) TimerEvent: {}
+[2.005702] (-) TimerEvent: {}
+[2.106030] (-) TimerEvent: {}
+[2.206393] (-) TimerEvent: {}
+[2.306714] (-) TimerEvent: {}
+[2.407021] (-) TimerEvent: {}
+[2.427300] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.435915] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.507148] (-) TimerEvent: {}
+[2.607461] (-) TimerEvent: {}
+[2.610930] (test_2_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.707583] (-) TimerEvent: {}
+[2.807905] (-) TimerEvent: {}
+[2.908242] (-) TimerEvent: {}
+[3.008606] (-) TimerEvent: {}
+[3.109017] (-) TimerEvent: {}
+[3.209418] (-) TimerEvent: {}
+[3.309761] (-) TimerEvent: {}
+[3.410132] (-) TimerEvent: {}
+[3.510510] (-) TimerEvent: {}
+[3.592952] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.610672] (-) TimerEvent: {}
+[3.660343] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.710816] (-) TimerEvent: {}
+[3.811200] (-) TimerEvent: {}
+[3.911530] (-) TimerEvent: {}
+[4.011848] (-) TimerEvent: {}
+[4.044977] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.053405] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.054193] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.055215] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.061500] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.095968] (test_2_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.098672] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.105267] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.105638] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.105848] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.111437] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.111973] (-) TimerEvent: {}
+[4.212297] (-) TimerEvent: {}
+[4.312747] (-) TimerEvent: {}
+[4.413110] (-) TimerEvent: {}
+[4.513534] (-) TimerEvent: {}
+[4.525814] (test_2_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.533350] (test_2_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.533618] (test_2_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.534017] (test_2_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.534336] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.537712] (test_2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.545839] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.546466] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.547856] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.568515] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.590692] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.597447] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.597764] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.598170] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.600522] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.613653] (-) TimerEvent: {}
+[4.713979] (-) TimerEvent: {}
+[4.814408] (-) TimerEvent: {}
+[4.914813] (-) TimerEvent: {}
+[4.968767] (test_2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.976427] (test_2_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.976848] (test_2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.977795] (test_2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.980492] (test_2_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.014970] (-) TimerEvent: {}
+[5.115267] (-) TimerEvent: {}
+[5.215647] (-) TimerEvent: {}
+[5.316000] (-) TimerEvent: {}
+[5.416364] (-) TimerEvent: {}
+[5.516868] (-) TimerEvent: {}
+[5.617321] (-) TimerEvent: {}
+[5.717693] (-) TimerEvent: {}
+[5.722721] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found Python3: /home/jerry/anaconda3/bin/python3 (found version "3.10.9") found components: Interpreter \n'}
+[5.736733] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found Python3: /home/jerry/anaconda3/bin/python3 (found version "3.10.9") found components: Interpreter \n'}
+[5.817871] (-) TimerEvent: {}
+[5.882218] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.885149] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.918038] (-) TimerEvent: {}
+[5.926105] (test_2_interfaces) StdoutLine: {'line': b'-- Found Python3: /home/jerry/anaconda3/bin/python3 (found version "3.10.9") found components: Interpreter \n'}
+[6.018184] (-) TimerEvent: {}
+[6.058351] (test_2_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.065634] (test_2_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.080027] (test_2_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.118339] (-) TimerEvent: {}
+[6.218682] (-) TimerEvent: {}
+[6.300593] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.301020] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.306513] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.307432] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.318854] (-) TimerEvent: {}
+[6.321622] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.321814] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.345168] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.345516] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.380281] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.380635] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.419011] (-) TimerEvent: {}
+[6.473529] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[6.488879] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.496601] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.519168] (-) TimerEvent: {}
+[6.619619] (-) TimerEvent: {}
+[6.697489] (test_2_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.719746] (-) TimerEvent: {}
+[6.745286] (test_2_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.819878] (-) TimerEvent: {}
+[6.920211] (-) TimerEvent: {}
+[6.967927] (test_2_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[6.968283] (test_2_interfaces) StderrLine: {'line': b'  execute_process(/home/jerry/anaconda3/bin/python3 -m rosidl_adapter\n'}
+[6.968430] (test_2_interfaces) StderrLine: {'line': b'  --package-name test_2_interfaces --arguments-file\n'}
+[6.968557] (test_2_interfaces) StderrLine: {'line': b'  /home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces/rosidl_adapter__arguments__test_2_interfaces.json\n'}
+[6.968673] (test_2_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[6.968790] (test_2_interfaces) StderrLine: {'line': b'  /home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces/rosidl_adapter/test_2_interfaces\n'}
+[6.968904] (test_2_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[6.969019] (test_2_interfaces) StderrLine: {'line': b'  /home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces/rosidl_adapter/test_2_interfaces.idls)\n'}
+[6.969134] (test_2_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[6.969250] (test_2_interfaces) StderrLine: {'line': b'\n'}
+[6.969363] (test_2_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[6.969474] (test_2_interfaces) StderrLine: {'line': b'\n'}
+[6.969590] (test_2_interfaces) StderrLine: {'line': b'    File "/home/jerry/anaconda3/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[6.969701] (test_2_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[6.969819] (test_2_interfaces) StderrLine: {'line': b'    File "/home/jerry/anaconda3/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[6.969929] (test_2_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[6.970047] (test_2_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[6.970159] (test_2_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[6.970277] (test_2_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[6.970390] (test_2_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[6.970503] (test_2_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 23, in convert_to_idl\n'}
+[6.970631] (test_2_interfaces) StderrLine: {'line': b'      from rosidl_adapter.srv import convert_srv_to_idl\n'}
+[6.970746] (test_2_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 16, in <module>\n'}
+[6.970859] (test_2_interfaces) StderrLine: {'line': b'      from rosidl_adapter.resource import expand_template\n'}
+[6.970972] (test_2_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>\n'}
+[6.971087] (test_2_interfaces) StderrLine: {'line': b'      import em\n'}
+[6.971194] (test_2_interfaces) StderrLine: {'line': b'\n'}
+[6.971307] (test_2_interfaces) StderrLine: {'line': b"  ModuleNotFoundError: No module named 'em'\n"}
+[6.971414] (test_2_interfaces) StderrLine: {'line': b'\n'}
+[6.971527] (test_2_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.971635] (test_2_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[6.971748] (test_2_interfaces) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[6.971857] (test_2_interfaces) StderrLine: {'line': b'\n'}
+[6.971969] (test_2_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[6.972083] (test_2_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.972205] (test_2_interfaces) StdoutLine: {'line': b'See also "/home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[6.976923] (test_2_interfaces) CommandEnded: {'returncode': 1}
+[6.994289] (test_2_interfaces) JobEnded: {'identifier': 'test_2_interfaces', 'rc': 1}
+[7.020342] (-) TimerEvent: {}
+[7.120669] (-) TimerEvent: {}
+[7.221053] (-) TimerEvent: {}
+[7.321485] (-) TimerEvent: {}
+[7.421819] (-) TimerEvent: {}
+[7.522266] (-) TimerEvent: {}
+[7.622722] (-) TimerEvent: {}
+[7.723077] (-) TimerEvent: {}
+[7.823414] (-) TimerEvent: {}
+[7.923748] (-) TimerEvent: {}
+[8.024138] (-) TimerEvent: {}
+[8.124681] (-) TimerEvent: {}
+[8.225135] (-) TimerEvent: {}
+[8.325491] (-) TimerEvent: {}
+[8.329139] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.425652] (-) TimerEvent: {}
+[8.525971] (-) TimerEvent: {}
+[8.626323] (-) TimerEvent: {}
+[8.726742] (-) TimerEvent: {}
+[8.827178] (-) TimerEvent: {}
+[8.927610] (-) TimerEvent: {}
+[9.027933] (-) TimerEvent: {}
+[9.128302] (-) TimerEvent: {}
+[9.228659] (-) TimerEvent: {}
+[9.264125] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[9.304610] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.307010] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.328811] (-) TimerEvent: {}
+[9.330272] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[9.374734] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.377613] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[9.428972] (-) TimerEvent: {}
+[9.529293] (-) TimerEvent: {}
+[9.629696] (-) TimerEvent: {}
+[9.730016] (-) TimerEvent: {}
+[9.830343] (-) TimerEvent: {}
+[9.930687] (-) TimerEvent: {}
+[10.031030] (-) TimerEvent: {}
+[10.104692] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[10.109827] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[10.119226] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[10.131184] (-) TimerEvent: {}
+[10.231741] (-) TimerEvent: {}
+[10.332114] (-) TimerEvent: {}
+[10.432432] (-) TimerEvent: {}
+[10.475412] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.494996] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.532554] (-) TimerEvent: {}
+[10.632988] (-) TimerEvent: {}
+[10.733404] (-) TimerEvent: {}
+[10.833728] (-) TimerEvent: {}
+[10.911912] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.912271] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.933908] (-) TimerEvent: {}
+[11.034271] (-) TimerEvent: {}
+[11.134673] (-) TimerEvent: {}
+[11.235091] (-) TimerEvent: {}
+[11.266319] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.267553] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.332571] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rviz_common: 11.2.13 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[11.335210] (-) TimerEvent: {}
+[11.341789] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[11.353885] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[11.356516] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found OGRE\n'}
+[11.356647] (rviz_plugin_tutorials) StdoutLine: {'line': b'--   static     : OFF\n'}
+[11.356757] (rviz_plugin_tutorials) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[11.356822] (rviz_plugin_tutorials) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[11.356880] (rviz_plugin_tutorials) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[11.356935] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[11.357043] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[11.357101] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[11.357164] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[11.357468] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[11.357546] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[11.357602] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[11.357656] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[11.435375] (-) TimerEvent: {}
+[11.499613] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[11.535508] (-) TimerEvent: {}
+[11.635861] (-) TimerEvent: {}
+[11.736211] (-) TimerEvent: {}
+[11.836678] (-) TimerEvent: {}
+[11.937090] (-) TimerEvent: {}
+[12.037420] (-) TimerEvent: {}
+[12.137739] (-) TimerEvent: {}
+[12.238105] (-) TimerEvent: {}
+[12.338534] (-) TimerEvent: {}
+[12.438845] (-) TimerEvent: {}
+[12.539166] (-) TimerEvent: {}
+[12.639544] (-) TimerEvent: {}
+[12.740018] (-) TimerEvent: {}
+[12.840324] (-) TimerEvent: {}
+[12.940634] (-) TimerEvent: {}
+[13.041016] (-) TimerEvent: {}
+[13.141411] (-) TimerEvent: {}
+[13.241747] (-) TimerEvent: {}
+[13.342155] (-) TimerEvent: {}
+[13.442511] (-) TimerEvent: {}
+[13.542836] (-) TimerEvent: {}
+[13.643246] (-) TimerEvent: {}
+[13.743688] (-) TimerEvent: {}
+[13.843998] (-) TimerEvent: {}
+[13.914376] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[13.944144] (-) TimerEvent: {}
+[14.044465] (-) TimerEvent: {}
+[14.144899] (-) TimerEvent: {}
+[14.245389] (-) TimerEvent: {}
+[14.345716] (-) TimerEvent: {}
+[14.446107] (-) TimerEvent: {}
+[14.546434] (-) TimerEvent: {}
+[14.647031] (-) TimerEvent: {}
+[14.747429] (-) TimerEvent: {}
+[14.847753] (-) TimerEvent: {}
+[14.948071] (-) TimerEvent: {}
+[15.048386] (-) TimerEvent: {}
+[15.148715] (-) TimerEvent: {}
+[15.249062] (-) TimerEvent: {}
+[15.349427] (-) TimerEvent: {}
+[15.449738] (-) TimerEvent: {}
+[15.550080] (-) TimerEvent: {}
+[15.650506] (-) TimerEvent: {}
+[15.750918] (-) TimerEvent: {}
+[15.851215] (-) TimerEvent: {}
+[15.951519] (-) TimerEvent: {}
+[16.051835] (-) TimerEvent: {}
+[16.152145] (-) TimerEvent: {}
+[16.252460] (-) TimerEvent: {}
+[16.352783] (-) TimerEvent: {}
+[16.453091] (-) TimerEvent: {}
+[16.553402] (-) TimerEvent: {}
+[16.653756] (-) TimerEvent: {}
+[16.754099] (-) TimerEvent: {}
+[16.854451] (-) TimerEvent: {}
+[16.954784] (-) TimerEvent: {}
+[17.055204] (-) TimerEvent: {}
+[17.155605] (-) TimerEvent: {}
+[17.256120] (-) TimerEvent: {}
+[17.356495] (-) TimerEvent: {}
+[17.456887] (-) TimerEvent: {}
+[17.557225] (-) TimerEvent: {}
+[17.657588] (-) TimerEvent: {}
+[17.757917] (-) TimerEvent: {}
+[17.858259] (-) TimerEvent: {}
+[17.958606] (-) TimerEvent: {}
+[18.058959] (-) TimerEvent: {}
+[18.159317] (-) TimerEvent: {}
+[18.259675] (-) TimerEvent: {}
+[18.360023] (-) TimerEvent: {}
+[18.382367] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[18.460164] (-) TimerEvent: {}
+[18.560538] (-) TimerEvent: {}
+[18.660862] (-) TimerEvent: {}
+[18.761249] (-) TimerEvent: {}
+[18.861560] (-) TimerEvent: {}
+[18.961895] (-) TimerEvent: {}
+[19.062221] (-) TimerEvent: {}
+[19.162555] (-) TimerEvent: {}
+[19.262896] (-) TimerEvent: {}
+[19.363245] (-) TimerEvent: {}
+[19.463578] (-) TimerEvent: {}
+[19.563934] (-) TimerEvent: {}
+[19.664227] (-) TimerEvent: {}
+[19.764523] (-) TimerEvent: {}
+[19.864858] (-) TimerEvent: {}
+[19.965244] (-) TimerEvent: {}
+[20.065731] (-) TimerEvent: {}
+[20.166203] (-) TimerEvent: {}
+[20.266599] (-) TimerEvent: {}
+[20.366974] (-) TimerEvent: {}
+[20.425751] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[20.467219] (-) TimerEvent: {}
+[20.567647] (-) TimerEvent: {}
+[20.668015] (-) TimerEvent: {}
+[20.768493] (-) TimerEvent: {}
+[20.868939] (-) TimerEvent: {}
+[20.969452] (-) TimerEvent: {}
+[21.069922] (-) TimerEvent: {}
+[21.170424] (-) TimerEvent: {}
+[21.270754] (-) TimerEvent: {}
+[21.371206] (-) TimerEvent: {}
+[21.472078] (-) TimerEvent: {}
+[21.572567] (-) TimerEvent: {}
+[21.672969] (-) TimerEvent: {}
+[21.773486] (-) TimerEvent: {}
+[21.873932] (-) TimerEvent: {}
+[21.974542] (-) TimerEvent: {}
+[22.075143] (-) TimerEvent: {}
+[22.175662] (-) TimerEvent: {}
+[22.276159] (-) TimerEvent: {}
+[22.376542] (-) TimerEvent: {}
+[22.476936] (-) TimerEvent: {}
+[22.577397] (-) TimerEvent: {}
+[22.678074] (-) TimerEvent: {}
+[22.778647] (-) TimerEvent: {}
+[22.879195] (-) TimerEvent: {}
+[22.979663] (-) TimerEvent: {}
+[23.080109] (-) TimerEvent: {}
+[23.180505] (-) TimerEvent: {}
+[23.280857] (-) TimerEvent: {}
+[23.381217] (-) TimerEvent: {}
+[23.481556] (-) TimerEvent: {}
+[23.581926] (-) TimerEvent: {}
+[23.682249] (-) TimerEvent: {}
+[23.782571] (-) TimerEvent: {}
+[23.883058] (-) TimerEvent: {}
+[23.983407] (-) TimerEvent: {}
+[24.083804] (-) TimerEvent: {}
+[24.184235] (-) TimerEvent: {}
+[24.284550] (-) TimerEvent: {}
+[24.384902] (-) TimerEvent: {}
+[24.485231] (-) TimerEvent: {}
+[24.585586] (-) TimerEvent: {}
+[24.685990] (-) TimerEvent: {}
+[24.786339] (-) TimerEvent: {}
+[24.886740] (-) TimerEvent: {}
+[24.987187] (-) TimerEvent: {}
+[25.018569] (rviz_plugin_sum_product) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[25.028279] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[25.087306] (-) TimerEvent: {}
+[25.187640] (-) TimerEvent: {}
+[25.288035] (-) TimerEvent: {}
+[25.298399] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[25.299212] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[25.388161] (-) TimerEvent: {}
+[25.488506] (-) TimerEvent: {}
+[25.588881] (-) TimerEvent: {}
+[25.689207] (-) TimerEvent: {}
+[25.735829] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[25.736904] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[25.789333] (-) TimerEvent: {}
+[25.795596] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found rviz_common: 11.2.13 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[25.889501] (-) TimerEvent: {}
+[25.990059] (-) TimerEvent: {}
+[26.090584] (-) TimerEvent: {}
+[26.191138] (-) TimerEvent: {}
+[26.291647] (-) TimerEvent: {}
+[26.313989] (rviz_plugin_sum_product) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[26.324683] (rviz_plugin_sum_product) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[26.325948] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found OGRE\n'}
+[26.326124] (rviz_plugin_sum_product) StdoutLine: {'line': b'--   static     : OFF\n'}
+[26.326299] (rviz_plugin_sum_product) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[26.326525] (rviz_plugin_sum_product) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[26.326762] (rviz_plugin_sum_product) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[26.327003] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[26.327191] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[26.327454] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[26.327599] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[26.327726] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[26.327811] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[26.327879] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[26.327955] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[26.391803] (-) TimerEvent: {}
+[26.486609] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[26.491945] (-) TimerEvent: {}
+[26.592343] (-) TimerEvent: {}
+[26.692752] (-) TimerEvent: {}
+[26.793163] (-) TimerEvent: {}
+[26.893621] (-) TimerEvent: {}
+[26.994129] (-) TimerEvent: {}
+[27.094588] (-) TimerEvent: {}
+[27.194996] (-) TimerEvent: {}
+[27.295344] (-) TimerEvent: {}
+[27.395696] (-) TimerEvent: {}
+[27.496080] (-) TimerEvent: {}
+[27.596396] (-) TimerEvent: {}
+[27.696712] (-) TimerEvent: {}
+[27.797023] (-) TimerEvent: {}
+[27.897347] (-) TimerEvent: {}
+[27.997664] (-) TimerEvent: {}
+[28.097991] (-) TimerEvent: {}
+[28.198329] (-) TimerEvent: {}
+[28.298769] (-) TimerEvent: {}
+[28.399108] (-) TimerEvent: {}
+[28.499514] (-) TimerEvent: {}
+[28.599871] (-) TimerEvent: {}
+[28.700278] (-) TimerEvent: {}
+[28.800591] (-) TimerEvent: {}
+[28.900891] (-) TimerEvent: {}
+[29.001233] (-) TimerEvent: {}
+[29.101735] (-) TimerEvent: {}
+[29.202206] (-) TimerEvent: {}
+[29.302654] (-) TimerEvent: {}
+[29.403144] (-) TimerEvent: {}
+[29.503616] (-) TimerEvent: {}
+[29.604089] (-) TimerEvent: {}
+[29.704572] (-) TimerEvent: {}
+[29.804935] (-) TimerEvent: {}
+[29.905296] (-) TimerEvent: {}
+[30.005673] (-) TimerEvent: {}
+[30.106156] (-) TimerEvent: {}
+[30.206553] (-) TimerEvent: {}
+[30.306934] (-) TimerEvent: {}
+[30.407281] (-) TimerEvent: {}
+[30.507669] (-) TimerEvent: {}
+[30.608017] (-) TimerEvent: {}
+[30.708327] (-) TimerEvent: {}
+[30.808703] (-) TimerEvent: {}
+[30.909046] (-) TimerEvent: {}
+[31.009392] (-) TimerEvent: {}
+[31.109717] (-) TimerEvent: {}
+[31.210037] (-) TimerEvent: {}
+[31.310381] (-) TimerEvent: {}
+[31.410698] (-) TimerEvent: {}
+[31.511047] (-) TimerEvent: {}
+[31.611416] (-) TimerEvent: {}
+[31.711747] (-) TimerEvent: {}
+[31.812113] (-) TimerEvent: {}
+[31.912422] (-) TimerEvent: {}
+[32.012790] (-) TimerEvent: {}
+[32.113281] (-) TimerEvent: {}
+[32.213719] (-) TimerEvent: {}
+[32.314202] (-) TimerEvent: {}
+[32.414590] (-) TimerEvent: {}
+[32.515054] (-) TimerEvent: {}
+[32.615448] (-) TimerEvent: {}
+[32.715874] (-) TimerEvent: {}
+[32.816209] (-) TimerEvent: {}
+[32.916578] (-) TimerEvent: {}
+[33.017005] (-) TimerEvent: {}
+[33.066208] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[33.117141] (-) TimerEvent: {}
+[33.217518] (-) TimerEvent: {}
+[33.317887] (-) TimerEvent: {}
+[33.418199] (-) TimerEvent: {}
+[33.518517] (-) TimerEvent: {}
+[33.618877] (-) TimerEvent: {}
+[33.719182] (-) TimerEvent: {}
+[33.819555] (-) TimerEvent: {}
+[33.820292] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[33.820996] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[33.919707] (-) TimerEvent: {}
+[34.020082] (-) TimerEvent: {}
+[34.120425] (-) TimerEvent: {}
+[34.198449] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[34.198864] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[34.220589] (-) TimerEvent: {}
+[34.320923] (-) TimerEvent: {}
+[34.421266] (-) TimerEvent: {}
+[34.521671] (-) TimerEvent: {}
+[34.579952] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[34.580126] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for connect\n'}
+[34.621853] (-) TimerEvent: {}
+[34.722261] (-) TimerEvent: {}
+[34.762027] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[34.822396] (-) TimerEvent: {}
+[34.907195] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[34.907519] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for remove\n'}
+[34.922588] (-) TimerEvent: {}
+[35.022924] (-) TimerEvent: {}
+[35.123232] (-) TimerEvent: {}
+[35.223589] (-) TimerEvent: {}
+[35.323969] (-) TimerEvent: {}
+[35.335836] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[35.336102] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[35.424115] (-) TimerEvent: {}
+[35.524454] (-) TimerEvent: {}
+[35.624859] (-) TimerEvent: {}
+[35.725178] (-) TimerEvent: {}
+[35.793546] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[35.793957] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[35.825333] (-) TimerEvent: {}
+[35.925775] (-) TimerEvent: {}
+[36.026254] (-) TimerEvent: {}
+[36.126721] (-) TimerEvent: {}
+[36.227120] (-) TimerEvent: {}
+[36.289827] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[36.327275] (-) TimerEvent: {}
+[36.427790] (-) TimerEvent: {}
+[36.528120] (-) TimerEvent: {}
+[36.628461] (-) TimerEvent: {}
+[36.728910] (-) TimerEvent: {}
+[36.829264] (-) TimerEvent: {}
+[36.929669] (-) TimerEvent: {}
+[37.030062] (-) TimerEvent: {}
+[37.130431] (-) TimerEvent: {}
+[37.230939] (-) TimerEvent: {}
+[37.331356] (-) TimerEvent: {}
+[37.431835] (-) TimerEvent: {}
+[37.532271] (-) TimerEvent: {}
+[37.632632] (-) TimerEvent: {}
+[37.733156] (-) TimerEvent: {}
+[37.833578] (-) TimerEvent: {}
+[37.933944] (-) TimerEvent: {}
+[38.034296] (-) TimerEvent: {}
+[38.134625] (-) TimerEvent: {}
+[38.234967] (-) TimerEvent: {}
+[38.335301] (-) TimerEvent: {}
+[38.435609] (-) TimerEvent: {}
+[38.535916] (-) TimerEvent: {}
+[38.636312] (-) TimerEvent: {}
+[38.736700] (-) TimerEvent: {}
+[38.837097] (-) TimerEvent: {}
+[38.937479] (-) TimerEvent: {}
+[39.037935] (-) TimerEvent: {}
+[39.138320] (-) TimerEvent: {}
+[39.238665] (-) TimerEvent: {}
+[39.339078] (-) TimerEvent: {}
+[39.439485] (-) TimerEvent: {}
+[39.539864] (-) TimerEvent: {}
+[39.640188] (-) TimerEvent: {}
+[39.740530] (-) TimerEvent: {}
+[39.840883] (-) TimerEvent: {}
+[39.941345] (-) TimerEvent: {}
+[40.041657] (-) TimerEvent: {}
+[40.141970] (-) TimerEvent: {}
+[40.242292] (-) TimerEvent: {}
+[40.342625] (-) TimerEvent: {}
+[40.442936] (-) TimerEvent: {}
+[40.543242] (-) TimerEvent: {}
+[40.643584] (-) TimerEvent: {}
+[40.743898] (-) TimerEvent: {}
+[40.844256] (-) TimerEvent: {}
+[40.944620] (-) TimerEvent: {}
+[41.044956] (-) TimerEvent: {}
+[41.145295] (-) TimerEvent: {}
+[41.245603] (-) TimerEvent: {}
+[41.345930] (-) TimerEvent: {}
+[41.446271] (-) TimerEvent: {}
+[41.546632] (-) TimerEvent: {}
+[41.646952] (-) TimerEvent: {}
+[41.747290] (-) TimerEvent: {}
+[41.847876] (-) TimerEvent: {}
+[41.892387] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[41.948033] (-) TimerEvent: {}
+[42.048505] (-) TimerEvent: {}
+[42.139373] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[42.139648] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[42.148698] (-) TimerEvent: {}
+[42.249255] (-) TimerEvent: {}
+[42.323808] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[42.349459] (-) TimerEvent: {}
+[42.431864] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Deploy OGRE media\n'}
+[42.434816] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[42.437858] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[42.438271] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[42.438383] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[42.441498] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[42.441779] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[42.443473] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[42.445121] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[42.446589] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[42.449047] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[42.449267] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[42.449539] (-) TimerEvent: {}
+[42.450735] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[42.453656] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[42.512727] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:44 (add_library):\n'}
+[42.512914] (rviz_plugin_tutorials) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target rviz_plugin_tutorials\n'}
+[42.512985] (rviz_plugin_tutorials) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[42.513045] (rviz_plugin_tutorials) StderrLine: {'line': b'  directories:\n'}
+[42.513132] (rviz_plugin_tutorials) StderrLine: {'line': b'\n'}
+[42.513189] (rviz_plugin_tutorials) StderrLine: {'line': b'    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[42.513245] (rviz_plugin_tutorials) StderrLine: {'line': b'      /home/jerry/anaconda3/lib\n'}
+[42.513298] (rviz_plugin_tutorials) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[42.513351] (rviz_plugin_tutorials) StderrLine: {'line': b'      /home/jerry/anaconda3/lib\n'}
+[42.513436] (rviz_plugin_tutorials) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[42.513493] (rviz_plugin_tutorials) StderrLine: {'line': b'      /home/jerry/anaconda3/lib\n'}
+[42.513546] (rviz_plugin_tutorials) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[42.513600] (rviz_plugin_tutorials) StderrLine: {'line': b'      /home/jerry/anaconda3/lib\n'}
+[42.513651] (rviz_plugin_tutorials) StderrLine: {'line': b'\n'}
+[42.513733] (rviz_plugin_tutorials) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[42.513792] (rviz_plugin_tutorials) StderrLine: {'line': b'\n'}
+[42.513845] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[0m\n'}
+[42.514172] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[42.520976] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_tutorials\n'}
+[42.536061] (rviz_plugin_tutorials) JobEnded: {'identifier': 'rviz_plugin_tutorials', 'rc': 'SIGINT'}
+[42.549671] (-) TimerEvent: {}
+[42.650039] (-) TimerEvent: {}
+[42.750445] (-) TimerEvent: {}
+[42.850831] (-) TimerEvent: {}
+[42.951185] (-) TimerEvent: {}
+[43.051487] (-) TimerEvent: {}
+[43.151790] (-) TimerEvent: {}
+[43.252138] (-) TimerEvent: {}
+[43.352579] (-) TimerEvent: {}
+[43.452894] (-) TimerEvent: {}
+[43.553193] (-) TimerEvent: {}
+[43.653529] (-) TimerEvent: {}
+[43.753934] (-) TimerEvent: {}
+[43.854675] (-) TimerEvent: {}
+[43.955063] (-) TimerEvent: {}
+[44.055525] (-) TimerEvent: {}
+[44.155869] (-) TimerEvent: {}
+[44.256340] (-) TimerEvent: {}
+[44.356765] (-) TimerEvent: {}
+[44.457115] (-) TimerEvent: {}
+[44.557492] (-) TimerEvent: {}
+[44.657920] (-) TimerEvent: {}
+[44.758403] (-) TimerEvent: {}
+[44.858770] (-) TimerEvent: {}
+[44.959322] (-) TimerEvent: {}
+[45.059800] (-) TimerEvent: {}
+[45.160426] (-) TimerEvent: {}
+[45.261052] (-) TimerEvent: {}
+[45.361646] (-) TimerEvent: {}
+[45.462234] (-) TimerEvent: {}
+[45.562859] (-) TimerEvent: {}
+[45.663270] (-) TimerEvent: {}
+[45.763666] (-) TimerEvent: {}
+[45.864017] (-) TimerEvent: {}
+[45.964418] (-) TimerEvent: {}
+[46.064907] (-) TimerEvent: {}
+[46.165340] (-) TimerEvent: {}
+[46.265711] (-) TimerEvent: {}
+[46.366051] (-) TimerEvent: {}
+[46.466453] (-) TimerEvent: {}
+[46.566851] (-) TimerEvent: {}
+[46.667209] (-) TimerEvent: {}
+[46.767728] (-) TimerEvent: {}
+[46.868144] (-) TimerEvent: {}
+[46.968519] (-) TimerEvent: {}
+[47.068940] (-) TimerEvent: {}
+[47.169503] (-) TimerEvent: {}
+[47.269937] (-) TimerEvent: {}
+[47.370321] (-) TimerEvent: {}
+[47.470823] (-) TimerEvent: {}
+[47.571220] (-) TimerEvent: {}
+[47.671525] (-) TimerEvent: {}
+[47.771868] (-) TimerEvent: {}
+[47.872208] (-) TimerEvent: {}
+[47.972504] (-) TimerEvent: {}
+[48.072910] (-) TimerEvent: {}
+[48.173328] (-) TimerEvent: {}
+[48.273686] (-) TimerEvent: {}
+[48.373988] (-) TimerEvent: {}
+[48.474406] (-) TimerEvent: {}
+[48.574744] (-) TimerEvent: {}
+[48.675132] (-) TimerEvent: {}
+[48.775456] (-) TimerEvent: {}
+[48.875764] (-) TimerEvent: {}
+[48.976078] (-) TimerEvent: {}
+[49.076478] (-) TimerEvent: {}
+[49.111948] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[49.112496] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[49.176656] (-) TimerEvent: {}
+[49.277088] (-) TimerEvent: {}
+[49.377407] (-) TimerEvent: {}
+[49.477756] (-) TimerEvent: {}
+[49.578056] (-) TimerEvent: {}
+[49.612516] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[49.612712] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[49.678227] (-) TimerEvent: {}
+[49.778582] (-) TimerEvent: {}
+[49.879005] (-) TimerEvent: {}
+[49.979330] (-) TimerEvent: {}
+[50.032090] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[50.032240] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for connect\n'}
+[50.079490] (-) TimerEvent: {}
+[50.179820] (-) TimerEvent: {}
+[50.280156] (-) TimerEvent: {}
+[50.380500] (-) TimerEvent: {}
+[50.480975] (-) TimerEvent: {}
+[50.510225] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[50.510378] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for remove\n'}
+[50.581156] (-) TimerEvent: {}
+[50.681471] (-) TimerEvent: {}
+[50.781951] (-) TimerEvent: {}
+[50.882272] (-) TimerEvent: {}
+[50.972045] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[50.972199] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[50.982423] (-) TimerEvent: {}
+[51.082734] (-) TimerEvent: {}
+[51.183027] (-) TimerEvent: {}
+[51.283430] (-) TimerEvent: {}
+[51.383978] (-) TimerEvent: {}
+[51.473784] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[51.474030] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[51.484263] (-) TimerEvent: {}
+[51.584587] (-) TimerEvent: {}
+[51.684902] (-) TimerEvent: {}
+[51.785215] (-) TimerEvent: {}
+[51.885593] (-) TimerEvent: {}
+[51.955698] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[51.985820] (-) TimerEvent: {}
+[52.086278] (-) TimerEvent: {}
+[52.186761] (-) TimerEvent: {}
+[52.287181] (-) TimerEvent: {}
+[52.387502] (-) TimerEvent: {}
+[52.487862] (-) TimerEvent: {}
+[52.588195] (-) TimerEvent: {}
+[52.688571] (-) TimerEvent: {}
+[52.789016] (-) TimerEvent: {}
+[52.889320] (-) TimerEvent: {}
+[52.989624] (-) TimerEvent: {}
+[53.089980] (-) TimerEvent: {}
+[53.190321] (-) TimerEvent: {}
+[53.290745] (-) TimerEvent: {}
+[53.391265] (-) TimerEvent: {}
+[53.491658] (-) TimerEvent: {}
+[53.591968] (-) TimerEvent: {}
+[53.692372] (-) TimerEvent: {}
+[53.792794] (-) TimerEvent: {}
+[53.893166] (-) TimerEvent: {}
+[53.993563] (-) TimerEvent: {}
+[54.093998] (-) TimerEvent: {}
+[54.194319] (-) TimerEvent: {}
+[54.294642] (-) TimerEvent: {}
+[54.394978] (-) TimerEvent: {}
+[54.495518] (-) TimerEvent: {}
+[54.596068] (-) TimerEvent: {}
+[54.696378] (-) TimerEvent: {}
+[54.796759] (-) TimerEvent: {}
+[54.897143] (-) TimerEvent: {}
+[54.997587] (-) TimerEvent: {}
+[55.098180] (-) TimerEvent: {}
+[55.198510] (-) TimerEvent: {}
+[55.298829] (-) TimerEvent: {}
+[55.399202] (-) TimerEvent: {}
+[55.499709] (-) TimerEvent: {}
+[55.600201] (-) TimerEvent: {}
+[55.700592] (-) TimerEvent: {}
+[55.800914] (-) TimerEvent: {}
+[55.901266] (-) TimerEvent: {}
+[56.001632] (-) TimerEvent: {}
+[56.102061] (-) TimerEvent: {}
+[56.202403] (-) TimerEvent: {}
+[56.302747] (-) TimerEvent: {}
+[56.403115] (-) TimerEvent: {}
+[56.503461] (-) TimerEvent: {}
+[56.603934] (-) TimerEvent: {}
+[56.704275] (-) TimerEvent: {}
+[56.804604] (-) TimerEvent: {}
+[56.904932] (-) TimerEvent: {}
+[57.005261] (-) TimerEvent: {}
+[57.105685] (-) TimerEvent: {}
+[57.206068] (-) TimerEvent: {}
+[57.306428] (-) TimerEvent: {}
+[57.406858] (-) TimerEvent: {}
+[57.507233] (-) TimerEvent: {}
+[57.607673] (-) TimerEvent: {}
+[57.708010] (-) TimerEvent: {}
+[57.808308] (-) TimerEvent: {}
+[57.908646] (-) TimerEvent: {}
+[58.009013] (-) TimerEvent: {}
+[58.109335] (-) TimerEvent: {}
+[58.209671] (-) TimerEvent: {}
+[58.254912] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[58.309865] (-) TimerEvent: {}
+[58.410190] (-) TimerEvent: {}
+[58.510498] (-) TimerEvent: {}
+[58.610813] (-) TimerEvent: {}
+[58.711124] (-) TimerEvent: {}
+[58.811436] (-) TimerEvent: {}
+[58.911759] (-) TimerEvent: {}
+[59.012142] (-) TimerEvent: {}
+[59.112552] (-) TimerEvent: {}
+[59.212891] (-) TimerEvent: {}
+[59.313263] (-) TimerEvent: {}
+[59.413627] (-) TimerEvent: {}
+[59.514154] (-) TimerEvent: {}
+[59.614697] (-) TimerEvent: {}
+[59.715125] (-) TimerEvent: {}
+[59.815465] (-) TimerEvent: {}
+[59.915777] (-) TimerEvent: {}
+[60.016156] (-) TimerEvent: {}
+[60.116620] (-) TimerEvent: {}
+[60.217123] (-) TimerEvent: {}
+[60.317508] (-) TimerEvent: {}
+[60.417902] (-) TimerEvent: {}
+[60.518215] (-) TimerEvent: {}
+[60.618531] (-) TimerEvent: {}
+[60.718868] (-) TimerEvent: {}
+[60.819212] (-) TimerEvent: {}
+[60.919601] (-) TimerEvent: {}
+[61.020030] (-) TimerEvent: {}
+[61.120381] (-) TimerEvent: {}
+[61.220719] (-) TimerEvent: {}
+[61.321018] (-) TimerEvent: {}
+[61.421322] (-) TimerEvent: {}
+[61.521733] (-) TimerEvent: {}
+[61.622335] (-) TimerEvent: {}
+[61.722746] (-) TimerEvent: {}
+[61.823179] (-) TimerEvent: {}
+[61.923613] (-) TimerEvent: {}
+[62.023916] (-) TimerEvent: {}
+[62.124250] (-) TimerEvent: {}
+[62.224610] (-) TimerEvent: {}
+[62.325018] (-) TimerEvent: {}
+[62.425632] (-) TimerEvent: {}
+[62.526055] (-) TimerEvent: {}
+[62.626527] (-) TimerEvent: {}
+[62.726936] (-) TimerEvent: {}
+[62.827368] (-) TimerEvent: {}
+[62.927770] (-) TimerEvent: {}
+[63.028082] (-) TimerEvent: {}
+[63.128450] (-) TimerEvent: {}
+[63.228971] (-) TimerEvent: {}
+[63.329419] (-) TimerEvent: {}
+[63.429919] (-) TimerEvent: {}
+[63.530385] (-) TimerEvent: {}
+[63.630735] (-) TimerEvent: {}
+[63.731187] (-) TimerEvent: {}
+[63.831882] (-) TimerEvent: {}
+[63.932327] (-) TimerEvent: {}
+[64.018094] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[64.018327] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[64.032530] (-) TimerEvent: {}
+[64.133042] (-) TimerEvent: {}
+[64.233489] (-) TimerEvent: {}
+[64.334000] (-) TimerEvent: {}
+[64.434497] (-) TimerEvent: {}
+[64.534870] (-) TimerEvent: {}
+[64.635338] (-) TimerEvent: {}
+[64.735780] (-) TimerEvent: {}
+[64.836206] (-) TimerEvent: {}
+[64.936613] (-) TimerEvent: {}
+[65.037054] (-) TimerEvent: {}
+[65.137468] (-) TimerEvent: {}
+[65.237918] (-) TimerEvent: {}
+[65.338494] (-) TimerEvent: {}
+[65.438951] (-) TimerEvent: {}
+[65.539485] (-) TimerEvent: {}
+[65.639995] (-) TimerEvent: {}
+[65.740513] (-) TimerEvent: {}
+[65.841096] (-) TimerEvent: {}
+[65.941534] (-) TimerEvent: {}
+[66.041910] (-) TimerEvent: {}
+[66.142242] (-) TimerEvent: {}
+[66.242655] (-) TimerEvent: {}
+[66.342997] (-) TimerEvent: {}
+[66.443403] (-) TimerEvent: {}
+[66.543731] (-) TimerEvent: {}
+[66.644086] (-) TimerEvent: {}
+[66.744492] (-) TimerEvent: {}
+[66.844867] (-) TimerEvent: {}
+[66.945354] (-) TimerEvent: {}
+[67.045680] (-) TimerEvent: {}
+[67.146193] (-) TimerEvent: {}
+[67.246592] (-) TimerEvent: {}
+[67.347033] (-) TimerEvent: {}
+[67.447420] (-) TimerEvent: {}
+[67.547881] (-) TimerEvent: {}
+[67.648225] (-) TimerEvent: {}
+[67.748643] (-) TimerEvent: {}
+[67.849052] (-) TimerEvent: {}
+[67.949528] (-) TimerEvent: {}
+[68.050071] (-) TimerEvent: {}
+[68.150628] (-) TimerEvent: {}
+[68.251138] (-) TimerEvent: {}
+[68.351503] (-) TimerEvent: {}
+[68.452001] (-) TimerEvent: {}
+[68.552463] (-) TimerEvent: {}
+[68.652814] (-) TimerEvent: {}
+[68.753150] (-) TimerEvent: {}
+[68.853688] (-) TimerEvent: {}
+[68.954130] (-) TimerEvent: {}
+[69.054476] (-) TimerEvent: {}
+[69.154890] (-) TimerEvent: {}
+[69.255386] (-) TimerEvent: {}
+[69.355739] (-) TimerEvent: {}
+[69.456042] (-) TimerEvent: {}
+[69.556383] (-) TimerEvent: {}
+[69.656713] (-) TimerEvent: {}
+[69.757024] (-) TimerEvent: {}
+[69.857363] (-) TimerEvent: {}
+[69.957727] (-) TimerEvent: {}
+[70.058067] (-) TimerEvent: {}
+[70.127840] (rviz_plugin_sum_product) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[70.128073] (rviz_plugin_sum_product) StderrLine: {'line': b'  By not providing "Findyour_service_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[70.128150] (rviz_plugin_sum_product) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[70.128251] (rviz_plugin_sum_product) StderrLine: {'line': b'  "your_service_msgs", but CMake did not find one.\n'}
+[70.128314] (rviz_plugin_sum_product) StderrLine: {'line': b'\n'}
+[70.128505] (rviz_plugin_sum_product) StderrLine: {'line': b'  Could not find a package configuration file provided by "your_service_msgs"\n'}
+[70.128612] (rviz_plugin_sum_product) StderrLine: {'line': b'  with any of the following names:\n'}
+[70.128862] (rviz_plugin_sum_product) StderrLine: {'line': b'\n'}
+[70.129055] (rviz_plugin_sum_product) StderrLine: {'line': b'    your_service_msgsConfig.cmake\n'}
+[70.129262] (rviz_plugin_sum_product) StderrLine: {'line': b'    your_service_msgs-config.cmake\n'}
+[70.129427] (rviz_plugin_sum_product) StderrLine: {'line': b'\n'}
+[70.129515] (rviz_plugin_sum_product) StderrLine: {'line': b'  Add the installation prefix of "your_service_msgs" to CMAKE_PREFIX_PATH or\n'}
+[70.129579] (rviz_plugin_sum_product) StderrLine: {'line': b'  set "your_service_msgs_DIR" to a directory containing one of the above\n'}
+[70.129639] (rviz_plugin_sum_product) StderrLine: {'line': b'  files.  If "your_service_msgs" provides a separate development package or\n'}
+[70.129732] (rviz_plugin_sum_product) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[70.129790] (rviz_plugin_sum_product) StderrLine: {'line': b'\n'}
+[70.129895] (rviz_plugin_sum_product) StderrLine: {'line': b'\x1b[0m\n'}
+[70.129987] (rviz_plugin_sum_product) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[70.130071] (rviz_plugin_sum_product) StdoutLine: {'line': b'See also "/home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_sum_product/CMakeFiles/CMakeOutput.log".\n'}
+[70.152996] (rviz_plugin_sum_product) JobEnded: {'identifier': 'rviz_plugin_sum_product', 'rc': 'SIGINT'}
+[70.155257] (-) EventReactorShutdown: {}

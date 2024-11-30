@@ -1,0 +1,7 @@
+{
+  "package_name": "test_2_interfaces",
+  "non_idl_tuples": [
+    "/home/jerry/Code/ROS2/test_2/src/test_2_interfaces:srv/Num.srv",
+    "/home/jerry/Code/ROS2/test_2/src/test_2_interfaces:msg/ThreeNumbers.msg"
+  ]
+}

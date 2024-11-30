@@ -1,0 +1,25 @@
+[0.724s] Invoking command in '/home/jerry/Code/ROS2/test_2/src/test_2': PYTHONPATH=/home/jerry/Code/ROS2/test_2/src/build/test_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/test_2 build --build-base /home/jerry/Code/ROS2/test_2/src/build/test_2/build install --record /home/jerry/Code/ROS2/test_2/src/build/test_2/install.log --single-version-externally-managed install_data
+[1.004s] running egg_info
+[1.005s] writing ../build/test_2/test_2.egg-info/PKG-INFO
+[1.006s] writing dependency_links to ../build/test_2/test_2.egg-info/dependency_links.txt
+[1.006s] writing entry points to ../build/test_2/test_2.egg-info/entry_points.txt
+[1.006s] writing requirements to ../build/test_2/test_2.egg-info/requires.txt
+[1.007s] writing top-level names to ../build/test_2/test_2.egg-info/top_level.txt
+[1.008s] reading manifest file '../build/test_2/test_2.egg-info/SOURCES.txt'
+[1.008s] adding license file 'LICENSE'
+[1.009s] writing manifest file '../build/test_2/test_2.egg-info/SOURCES.txt'
+[1.009s] running build
+[1.009s] running build_py
+[1.010s] running install
+[1.010s] running install_lib
+[1.012s] running install_data
+[1.012s] running install_egg_info
+[1.014s] removing '/home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.014s] Copying ../build/test_2/test_2.egg-info to /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages/test_2-0.0.0-py3.10.egg-info
+[1.016s] running install_scripts
+[1.041s] Installing cli script to /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/test_2
+[1.041s] Installing pub script to /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/test_2
+[1.041s] Installing ser script to /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/test_2
+[1.042s] Installing sub script to /home/jerry/Code/ROS2/test_2/src/install/test_2/lib/test_2
+[1.042s] writing list of installed files to '/home/jerry/Code/ROS2/test_2/src/build/test_2/install.log'
+[1.069s] Invoked command in '/home/jerry/Code/ROS2/test_2/src/test_2' returned '0': PYTHONPATH=/home/jerry/Code/ROS2/test_2/src/build/test_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/test_2 build --build-base /home/jerry/Code/ROS2/test_2/src/build/test_2/build install --record /home/jerry/Code/ROS2/test_2/src/build/test_2/install.log --single-version-externally-managed install_data

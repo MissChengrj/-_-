@@ -1,0 +1,40 @@
+[0.032s] Invoking command in '/home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/src/install/test_2:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials /usr/bin/cmake --build /home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_tutorials -- -j12 -l12
+[0.297s] [ 12%] [34m[1mAutomatic MOC for target rviz_plugin_tutorials[0m
+[0.297s] [ 12%] Built target rviz_plugin_tutorials_autogen
+[0.298s] [35m[1mConsolidate compiler generated dependencies of target rviz_plugin_tutorials[0m
+[0.298s] [100%] Built target rviz_plugin_tutorials
+[0.302s] Invoked command in '/home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/src/install/test_2:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials /usr/bin/cmake --build /home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_tutorials -- -j12 -l12
+[0.314s] Invoking command in '/home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/src/install/test_2:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials /usr/bin/cmake --install /home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_tutorials
+[0.319s] -- Install configuration: ""
+[0.321s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/plugin_description.xml
+[0.322s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/lib/rviz_plugin_tutorials/librviz_plugin_tutorials.so
+[0.330s] -- Set runtime path of "/home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/lib/rviz_plugin_tutorials/librviz_plugin_tutorials.so" to ""
+[0.330s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media
+[0.332s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media/flag.dae
+[0.333s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons
+[0.334s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes
+[0.335s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes/Imu.png
+[0.336s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes/Teleop.png
+[0.336s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes/PlantFlag.png
+[0.337s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/lib/rviz_plugin_tutorials/send_test_msgs.py
+[0.339s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_tutorials
+[0.341s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_tutorials
+[0.342s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/ament_prefix_path.sh
+[0.343s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/ament_prefix_path.dsv
+[0.344s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/path.sh
+[0.344s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/path.dsv
+[0.345s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.bash
+[0.346s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.sh
+[0.346s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.zsh
+[0.347s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.dsv
+[0.348s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.dsv
+[0.349s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/ament_index/resource_index/packages/rviz_plugin_tutorials
+[0.350s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_tutorials
+[0.351s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media
+[0.351s] -- Up-to-date: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media/flag.dae
+[0.352s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/ament_index/resource_index/rviz_ogre_media_exports/rviz_plugin_tutorials
+[0.353s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.354s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/cmake/rviz_plugin_tutorialsConfig.cmake
+[0.354s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/cmake/rviz_plugin_tutorialsConfig-version.cmake
+[0.355s] -- Installing: /home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.xml
+[0.358s] Invoked command in '/home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/src/install/test_2:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials /usr/bin/cmake --install /home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_tutorials

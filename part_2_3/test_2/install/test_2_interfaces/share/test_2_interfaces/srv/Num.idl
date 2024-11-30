@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from test_2_interfaces/srv/Num.srv
+// generated code does not contain a copyright notice
+
+
+module test_2_interfaces {
+  module srv {
+    struct Num_Request {
+      float a;
+
+      float b;
+
+      float c;
+
+      string operation;
+    };
+    struct Num_Response {
+      float result;
+    };
+  };
+};

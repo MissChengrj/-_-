@@ -1,0 +1,204 @@
+[0.581s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.581s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f391b5f1b10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f391b5f15d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f391b5f15d0>>, mixin_verb=('build',))
+[1.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.028s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jerry/Code/ROS2/test_2/src'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_sum_product) by extensions ['ignore', 'ignore_ament_install']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_sum_product) by extension 'ignore'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_sum_product) by extension 'ignore_ament_install'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_sum_product) by extensions ['colcon_pkg']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_sum_product) by extension 'colcon_pkg'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_sum_product) by extensions ['colcon_meta']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_sum_product) by extension 'colcon_meta'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_sum_product) by extensions ['ros']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_sum_product) by extension 'ros'
+[1.043s] DEBUG:colcon.colcon_core.package_identification:Package 'rviz_plugin_sum_product' with type 'ros.ament_cmake' and name 'rviz_plugin_sum_product'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_tutorials) by extension 'ignore'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_tutorials) by extension 'ignore_ament_install'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_tutorials) by extensions ['colcon_pkg']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_tutorials) by extension 'colcon_pkg'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_tutorials) by extensions ['colcon_meta']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_tutorials) by extension 'colcon_meta'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_tutorials) by extensions ['ros']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_plugin_tutorials) by extension 'ros'
+[1.045s] DEBUG:colcon.colcon_core.package_identification:Package 'rviz_plugin_tutorials' with type 'ros.ament_cmake' and name 'rviz_plugin_tutorials'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(test_2) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(test_2) by extension 'ignore'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(test_2) by extension 'ignore_ament_install'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(test_2) by extensions ['colcon_pkg']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(test_2) by extension 'colcon_pkg'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(test_2) by extensions ['colcon_meta']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(test_2) by extension 'colcon_meta'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(test_2) by extensions ['ros']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(test_2) by extension 'ros'
+[1.046s] DEBUG:colcon.colcon_core.package_identification:Package 'test_2' with type 'ros.ament_python' and name 'test_2'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(test_2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(test_2_interfaces) by extension 'ignore'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(test_2_interfaces) by extension 'ignore_ament_install'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(test_2_interfaces) by extensions ['colcon_pkg']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(test_2_interfaces) by extension 'colcon_pkg'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(test_2_interfaces) by extensions ['colcon_meta']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(test_2_interfaces) by extension 'colcon_meta'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(test_2_interfaces) by extensions ['ros']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(test_2_interfaces) by extension 'ros'
+[1.047s] DEBUG:colcon.colcon_core.package_identification:Package 'test_2_interfaces' with type 'ros.ament_cmake' and name 'test_2_interfaces'
+[1.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.097s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/jerry/Code/ROS2/test_2/install
+[1.099s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[1.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_sum_product' build argument 'cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_sum_product' build argument 'cmake_target' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_sum_product' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_sum_product' build argument 'cmake_clean_cache' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_sum_product' build argument 'cmake_clean_first' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_sum_product' build argument 'cmake_force_configure' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_sum_product' build argument 'ament_cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_sum_product' build argument 'catkin_cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_sum_product' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.203s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_plugin_sum_product' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_sum_product', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_sum_product', 'merge_install': False, 'path': '/home/jerry/Code/ROS2/test_2/src/rviz_plugin_sum_product', 'symlink_install': False, 'test_result_base': None}
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_target' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.204s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_plugin_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials', 'merge_install': False, 'path': '/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials', 'symlink_install': False, 'test_result_base': None}
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'test_2' build argument 'cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'test_2' build argument 'cmake_target' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'test_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'test_2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'test_2' build argument 'cmake_clean_first' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'test_2' build argument 'cmake_force_configure' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'test_2' build argument 'ament_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'test_2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'test_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.204s] DEBUG:colcon.colcon_core.verb:Building package 'test_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/Code/ROS2/test_2/src/build/test_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/Code/ROS2/test_2/src/install/test_2', 'merge_install': False, 'path': '/home/jerry/Code/ROS2/test_2/src/test_2', 'symlink_install': False, 'test_result_base': None}
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'test_2_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'test_2_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'test_2_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'test_2_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'test_2_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'test_2_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'test_2_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'test_2_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'test_2_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.205s] DEBUG:colcon.colcon_core.verb:Building package 'test_2_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces', 'merge_install': False, 'path': '/home/jerry/Code/ROS2/test_2/src/test_2_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.205s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.206s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.206s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jerry/Code/ROS2/test_2/src/rviz_plugin_sum_product' with build type 'ament_cmake'
+[1.206s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jerry/Code/ROS2/test_2/src/rviz_plugin_sum_product'
+[1.213s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.217s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials' with build type 'ament_cmake'
+[1.217s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials'
+[1.217s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.223s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jerry/Code/ROS2/test_2/src/test_2' with build type 'ament_python'
+[1.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_2', 'ament_prefix_path')
+[1.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/Code/ROS2/test_2/src/install/test_2/share/test_2/hook/ament_prefix_path.ps1'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/Code/ROS2/test_2/src/install/test_2/share/test_2/hook/ament_prefix_path.dsv'
+[1.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/Code/ROS2/test_2/src/install/test_2/share/test_2/hook/ament_prefix_path.sh'
+[1.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.234s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jerry/Code/ROS2/test_2/src/test_2_interfaces' with build type 'ament_cmake'
+[1.234s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jerry/Code/ROS2/test_2/src/test_2_interfaces'
+[1.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_sum_product': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/jerry/Code/ROS2/test_2/src/rviz_plugin_sum_product -DCMAKE_INSTALL_PREFIX=/home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_sum_product
+[1.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/Code/ROS2/test_2/src/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials -DCMAKE_INSTALL_PREFIX=/home/jerry/Code/ROS2/test_2/src/install/rviz_plugin_tutorials
+[1.516s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jerry/Code/ROS2/test_2/src/test_2'
+[1.516s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.516s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/jerry/Code/ROS2/test_2/src/test_2_interfaces -DCMAKE_INSTALL_PREFIX=/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces
+[2.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/Code/ROS2/test_2/src/test_2': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/jerry/Code/ROS2/test_2/src/build/test_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/test_2 build --build-base /home/jerry/Code/ROS2/test_2/src/build/test_2/build install --record /home/jerry/Code/ROS2/test_2/src/build/test_2/install.log --single-version-externally-managed install_data
+[2.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/Code/ROS2/test_2/src/test_2' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/jerry/Code/ROS2/test_2/src/build/test_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/test_2 build --build-base /home/jerry/Code/ROS2/test_2/src/build/test_2/build install --record /home/jerry/Code/ROS2/test_2/src/build/test_2/install.log --single-version-externally-managed install_data
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/Code/ROS2/test_2/src/install/test_2' for CMake module files
+[2.521s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/Code/ROS2/test_2/src/install/test_2' for CMake config files
+[2.521s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/Code/ROS2/test_2/src/install/test_2/lib'
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/Code/ROS2/test_2/src/install/test_2/bin'
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/Code/ROS2/test_2/src/install/test_2/lib/pkgconfig/test_2.pc'
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages'
+[2.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_2', 'pythonpath')
+[2.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/Code/ROS2/test_2/src/install/test_2/share/test_2/hook/pythonpath.ps1'
+[2.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/Code/ROS2/test_2/src/install/test_2/share/test_2/hook/pythonpath.dsv'
+[2.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/Code/ROS2/test_2/src/install/test_2/share/test_2/hook/pythonpath.sh'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/Code/ROS2/test_2/src/install/test_2/bin'
+[2.524s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_2)
+[2.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/Code/ROS2/test_2/src/install/test_2/share/test_2/package.ps1'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/Code/ROS2/test_2/src/install/test_2/share/test_2/package.dsv'
+[2.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/Code/ROS2/test_2/src/install/test_2/share/test_2/package.sh'
+[2.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/Code/ROS2/test_2/src/install/test_2/share/test_2/package.bash'
+[2.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/Code/ROS2/test_2/src/install/test_2/share/test_2/package.zsh'
+[2.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/Code/ROS2/test_2/src/install/test_2/share/colcon-core/packages/test_2)
+[8.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/jerry/Code/ROS2/test_2/src/test_2_interfaces -DCMAKE_INSTALL_PREFIX=/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces
+[8.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_2_interfaces)
+[8.194s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces' for CMake module files
+[8.195s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces' for CMake config files
+[8.195s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces/bin'
+[8.195s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces/lib/pkgconfig/test_2_interfaces.pc'
+[8.195s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces/lib/python3.10/site-packages'
+[8.195s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces/bin'
+[8.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces/share/test_2_interfaces/package.ps1'
+[8.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces/share/test_2_interfaces/package.dsv'
+[8.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces/share/test_2_interfaces/package.sh'
+[8.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces/share/test_2_interfaces/package.bash'
+[8.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces/share/test_2_interfaces/package.zsh'
+[8.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces/share/colcon-core/packages/test_2_interfaces)
+[71.359s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[71.360s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[71.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[71.361s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[71.583s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[71.583s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[71.583s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[71.583s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[71.585s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[71.585s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[71.585s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jerry/Code/ROS2/test_2/src/install/local_setup.ps1'
+[71.587s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jerry/Code/ROS2/test_2/src/install/_local_setup_util_ps1.py'
+[71.588s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jerry/Code/ROS2/test_2/src/install/setup.ps1'
+[71.590s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jerry/Code/ROS2/test_2/src/install/local_setup.sh'
+[71.591s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jerry/Code/ROS2/test_2/src/install/_local_setup_util_sh.py'
+[71.591s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jerry/Code/ROS2/test_2/src/install/setup.sh'
+[71.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jerry/Code/ROS2/test_2/src/install/local_setup.bash'
+[71.594s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jerry/Code/ROS2/test_2/src/install/setup.bash'
+[71.595s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jerry/Code/ROS2/test_2/src/install/local_setup.zsh'
+[71.596s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jerry/Code/ROS2/test_2/src/install/setup.zsh'

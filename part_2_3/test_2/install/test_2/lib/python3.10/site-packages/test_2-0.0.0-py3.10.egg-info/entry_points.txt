@@ -1,0 +1,6 @@
+[console_scripts]
+cli = test_2.cli_node:main
+pub = test_2.pub_node:main
+ser = test_2.ser_node:main
+sub = test_2.sub_node:main
+

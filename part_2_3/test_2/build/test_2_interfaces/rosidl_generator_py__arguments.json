@@ -1,0 +1,26 @@
+{
+  "package_name": "test_2_interfaces",
+  "output_dir": "/home/jerry/Code/ROS2/test_2/build/test_2_interfaces/rosidl_generator_py/test_2_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/jerry/Code/ROS2/test_2/build/test_2_interfaces/rosidl_adapter/test_2_interfaces:srv/Num.idl",
+    "/home/jerry/Code/ROS2/test_2/build/test_2_interfaces/rosidl_adapter/test_2_interfaces:msg/ThreeNumbers.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/jerry/Code/ROS2/test_2/build/test_2_interfaces/rosidl_adapter/test_2_interfaces/srv/Num.idl",
+    "/home/jerry/Code/ROS2/test_2/build/test_2_interfaces/rosidl_adapter/test_2_interfaces/msg/ThreeNumbers.idl"
+  ]
+}

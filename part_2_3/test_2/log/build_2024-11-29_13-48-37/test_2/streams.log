@@ -1,0 +1,50 @@
+[0.765s] Invoking command in '/home/jerry/Code/ROS2/test_2/src/test_2': PYTHONPATH=/home/jerry/Code/ROS2/test_2/build/test_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_2 build --build-base /home/jerry/Code/ROS2/test_2/build/test_2/build install --record /home/jerry/Code/ROS2/test_2/build/test_2/install.log --single-version-externally-managed install_data
+[1.043s] running egg_info
+[1.044s] creating ../../build/test_2/test_2.egg-info
+[1.044s] writing ../../build/test_2/test_2.egg-info/PKG-INFO
+[1.045s] writing dependency_links to ../../build/test_2/test_2.egg-info/dependency_links.txt
+[1.045s] writing entry points to ../../build/test_2/test_2.egg-info/entry_points.txt
+[1.045s] writing requirements to ../../build/test_2/test_2.egg-info/requires.txt
+[1.045s] writing top-level names to ../../build/test_2/test_2.egg-info/top_level.txt
+[1.045s] writing manifest file '../../build/test_2/test_2.egg-info/SOURCES.txt'
+[1.047s] reading manifest file '../../build/test_2/test_2.egg-info/SOURCES.txt'
+[1.048s] adding license file 'LICENSE'
+[1.048s] writing manifest file '../../build/test_2/test_2.egg-info/SOURCES.txt'
+[1.048s] running build
+[1.048s] running build_py
+[1.049s] creating /home/jerry/Code/ROS2/test_2/build/test_2/build
+[1.049s] creating /home/jerry/Code/ROS2/test_2/build/test_2/build/lib
+[1.050s] creating /home/jerry/Code/ROS2/test_2/build/test_2/build/lib/test_2
+[1.050s] copying test_2/ser_node.py -> /home/jerry/Code/ROS2/test_2/build/test_2/build/lib/test_2
+[1.050s] copying test_2/sub_node.py -> /home/jerry/Code/ROS2/test_2/build/test_2/build/lib/test_2
+[1.051s] copying test_2/__init__.py -> /home/jerry/Code/ROS2/test_2/build/test_2/build/lib/test_2
+[1.051s] copying test_2/cli_node.py -> /home/jerry/Code/ROS2/test_2/build/test_2/build/lib/test_2
+[1.052s] copying test_2/pub_node.py -> /home/jerry/Code/ROS2/test_2/build/test_2/build/lib/test_2
+[1.053s] running install
+[1.053s] running install_lib
+[1.055s] creating /home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages/test_2
+[1.055s] copying /home/jerry/Code/ROS2/test_2/build/test_2/build/lib/test_2/ser_node.py -> /home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages/test_2
+[1.055s] copying /home/jerry/Code/ROS2/test_2/build/test_2/build/lib/test_2/sub_node.py -> /home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages/test_2
+[1.056s] copying /home/jerry/Code/ROS2/test_2/build/test_2/build/lib/test_2/__init__.py -> /home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages/test_2
+[1.056s] copying /home/jerry/Code/ROS2/test_2/build/test_2/build/lib/test_2/cli_node.py -> /home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages/test_2
+[1.056s] copying /home/jerry/Code/ROS2/test_2/build/test_2/build/lib/test_2/pub_node.py -> /home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages/test_2
+[1.056s] byte-compiling /home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages/test_2/ser_node.py to ser_node.cpython-310.pyc
+[1.057s] byte-compiling /home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages/test_2/sub_node.py to sub_node.cpython-310.pyc
+[1.057s] byte-compiling /home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages/test_2/__init__.py to __init__.cpython-310.pyc
+[1.057s] byte-compiling /home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages/test_2/cli_node.py to cli_node.cpython-310.pyc
+[1.058s] byte-compiling /home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages/test_2/pub_node.py to pub_node.cpython-310.pyc
+[1.058s] running install_data
+[1.058s] creating /home/jerry/Code/ROS2/test_2/install/test_2/share/ament_index
+[1.059s] creating /home/jerry/Code/ROS2/test_2/install/test_2/share/ament_index/resource_index
+[1.059s] creating /home/jerry/Code/ROS2/test_2/install/test_2/share/ament_index/resource_index/packages
+[1.059s] copying resource/test_2 -> /home/jerry/Code/ROS2/test_2/install/test_2/share/ament_index/resource_index/packages
+[1.059s] copying package.xml -> /home/jerry/Code/ROS2/test_2/install/test_2/share/test_2
+[1.059s] running install_egg_info
+[1.061s] Copying ../../build/test_2/test_2.egg-info to /home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages/test_2-0.0.0-py3.10.egg-info
+[1.062s] running install_scripts
+[1.081s] Installing cli script to /home/jerry/Code/ROS2/test_2/install/test_2/lib/test_2
+[1.082s] Installing pub script to /home/jerry/Code/ROS2/test_2/install/test_2/lib/test_2
+[1.082s] Installing ser script to /home/jerry/Code/ROS2/test_2/install/test_2/lib/test_2
+[1.082s] Installing sub script to /home/jerry/Code/ROS2/test_2/install/test_2/lib/test_2
+[1.082s] writing list of installed files to '/home/jerry/Code/ROS2/test_2/build/test_2/install.log'
+[1.105s] Invoked command in '/home/jerry/Code/ROS2/test_2/src/test_2' returned '0': PYTHONPATH=/home/jerry/Code/ROS2/test_2/build/test_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_2 build --build-base /home/jerry/Code/ROS2/test_2/build/test_2/build install --record /home/jerry/Code/ROS2/test_2/build/test_2/install.log --single-version-externally-managed install_data

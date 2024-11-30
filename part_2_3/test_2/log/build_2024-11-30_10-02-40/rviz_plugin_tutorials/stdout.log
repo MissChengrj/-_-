@@ -1,0 +1,6 @@
+[ 11%] [34m[1mAutomatic MOC and UIC for target rviz_plugin_tutorials[0m
+[ 11%] Built target rviz_plugin_tutorials_autogen
+[35m[1mConsolidate compiler generated dependencies of target rviz_plugin_tutorials[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/my_rviz_panel.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library librviz_plugin_tutorials.so[0m
+[100%] Built target rviz_plugin_tutorials

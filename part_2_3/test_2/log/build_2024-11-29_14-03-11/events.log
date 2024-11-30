@@ -1,0 +1,259 @@
+[0.000000] (-) TimerEvent: {}
+[0.000141] (-) JobUnselected: {'identifier': 'my_rviz_plugin'}
+[0.000551] (-) JobUnselected: {'identifier': 'test_2'}
+[0.000709] (-) JobUnselected: {'identifier': 'test_2_interfaces'}
+[0.000763] (rviz_plugin_tutorials) JobQueued: {'identifier': 'rviz_plugin_tutorials', 'dependencies': OrderedDict([('test_2_interfaces', '/home/jerry/Code/ROS2/test_2/install/test_2_interfaces')])}
+[0.000871] (rviz_plugin_tutorials) JobStarted: {'identifier': 'rviz_plugin_tutorials'}
+[0.099419] (-) TimerEvent: {}
+[0.199743] (-) TimerEvent: {}
+[0.300037] (-) TimerEvent: {}
+[0.386775] (rviz_plugin_tutorials) JobProgress: {'identifier': 'rviz_plugin_tutorials', 'progress': 'cmake'}
+[0.388167] (rviz_plugin_tutorials) JobProgress: {'identifier': 'rviz_plugin_tutorials', 'progress': 'build'}
+[0.388234] (rviz_plugin_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials', '--', '-j12', '-l12'], 'cwd': '/home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jerry'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/lib:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/local/cuda-11.7/lib64'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/jerry'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jerry/Code/ROS2/test_2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jerry/Code/ROS2/test_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jerry'), ('NAME', 'DESKTOP-NCAI8OK'), ('WSL_INTEROP', '/run/WSL/2671_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.7/bin:/home/jerry/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Program Files (x86)/VMware/VMware Workstation/bin:/mnt/d/Program Files (x86)/Anaconda3:/mnt/d/Program Files (x86)/Anaconda3/Library/mingw-w64/bin:/mnt/d/Program Files (x86)/Anaconda3/Library/usr/bin:/mnt/d/Program Files (x86)/Anaconda3/Library/bin:/mnt/d/Program Files (x86)/Anaconda3/Scripts:/mnt/d/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/Scripts:/mnt/d/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64:/mnt/d/python/Scripts:/mnt/d/python:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/d/opencv/build/x64/vc15/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/d/Matlab R2020a/runtime/win64:/mnt/d/Matlab R2020a/bin:/mnt/d/Matlab R2020a/polyspace/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/Program Files (x86)/CMake/bin:/mnt/d/source/opencv-4.5.5_build/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/lib:/mnt/d/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/d/Program Files (x86)/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/d/texlive/2024/bin/windows:/mnt/c/Users/MECHREVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/MECHREVO/.dotnet/tools:/mnt/d/python:/mnt/d/python/Scripts:/mnt/c/Users/MECHREVO/AppData/Local/GitHubDesktop/bin:/mnt/d/source/opencv-4.5.5_build/install/bin:/mnt/d/Users/MECHREVO/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/Program Files/JetBrains/PyCharm 2024.2.3/bin:/mnt/f/PyCharm Community Edition 2024.2.3/bin:/mnt/c/Users/MECHREVO:/snap/bin:/home/root/anaconda3/bin'), ('RCLCPP_LOG_LEVEL', 'DEBUG'), ('WT_SESSION', '072a492e-4791-4c0b-b06e-044d98ab4506'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('RVIZ_PLUGIN_PATH', '/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin/lib'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin:/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/test_2:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_sum_product:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install'), ('CONDA_PYTHON_EXE', '/home/jerry/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jerry/Code/ROS2/test_2/build/rviz_plugin_tutorials'), ('CONDA_EXE', '/home/jerry/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jerry/Code/ROS2/test_2/src/install/test_2/lib/python3.10/site-packages:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py/lib/python3.10/site-packages:/home/jerry/Code/ROS2/test_2/install/test_2_interfaces/local/lib/python3.10/dist-packages:/home/jerry/Code/ROS2/test_2/install/test_2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/my_rviz_plugin:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_sum_product:/home/jerry/Code/ROS2/test_2/install:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.400204] (-) TimerEvent: {}
+[0.434506] (rviz_plugin_tutorials) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target rviz_plugin_tutorials\x1b[0m\n'}
+[0.500371] (-) TimerEvent: {}
+[0.600722] (-) TimerEvent: {}
+[0.701063] (-) TimerEvent: {}
+[0.703598] (rviz_plugin_tutorials) StdoutLine: {'line': b'[ 11%] Built target rviz_plugin_tutorials_autogen\n'}
+[0.720445] (rviz_plugin_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rviz_plugin_tutorials\x1b[0m\n'}
+[0.756709] (rviz_plugin_tutorials) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/rviz_plugin_tutorials_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[0.757230] (rviz_plugin_tutorials) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/my_rviz_panel.cpp.o\x1b[0m\n'}
+[0.801178] (-) TimerEvent: {}
+[0.901555] (-) TimerEvent: {}
+[1.001890] (-) TimerEvent: {}
+[1.102268] (-) TimerEvent: {}
+[1.202615] (-) TimerEvent: {}
+[1.302951] (-) TimerEvent: {}
+[1.403291] (-) TimerEvent: {}
+[1.503646] (-) TimerEvent: {}
+[1.603971] (-) TimerEvent: {}
+[1.704360] (-) TimerEvent: {}
+[1.804748] (-) TimerEvent: {}
+[1.905097] (-) TimerEvent: {}
+[2.005447] (-) TimerEvent: {}
+[2.105806] (-) TimerEvent: {}
+[2.206181] (-) TimerEvent: {}
+[2.306542] (-) TimerEvent: {}
+[2.406864] (-) TimerEvent: {}
+[2.507266] (-) TimerEvent: {}
+[2.607639] (-) TimerEvent: {}
+[2.708033] (-) TimerEvent: {}
+[2.808388] (-) TimerEvent: {}
+[2.908762] (-) TimerEvent: {}
+[3.009092] (-) TimerEvent: {}
+[3.109444] (-) TimerEvent: {}
+[3.209821] (-) TimerEvent: {}
+[3.310197] (-) TimerEvent: {}
+[3.410543] (-) TimerEvent: {}
+[3.510887] (-) TimerEvent: {}
+[3.611242] (-) TimerEvent: {}
+[3.711586] (-) TimerEvent: {}
+[3.811995] (-) TimerEvent: {}
+[3.887211] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:8:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMyRvizPanel\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.887379] (rviz_plugin_tutorials) StderrLine: {'line': b'    8 | \x1b[01;31m\x1b[KMyRvizPanel\x1b[m\x1b[K::MyRvizPanel(QWidget* parent)\n'}
+[3.887442] (rviz_plugin_tutorials) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.889254] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:37:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMyRvizPanel\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.889355] (rviz_plugin_tutorials) StderrLine: {'line': b'   37 | \x1b[01;31m\x1b[KMyRvizPanel\x1b[m\x1b[K::~MyRvizPanel() = default;\n'}
+[3.889415] (rviz_plugin_tutorials) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.889471] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:39:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMyRvizPanel\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.889525] (rviz_plugin_tutorials) StderrLine: {'line': b'   39 | void \x1b[01;31m\x1b[KMyRvizPanel\x1b[m\x1b[K::onButtonClicked() {\n'}
+[3.889577] (rviz_plugin_tutorials) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.893025] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid my_rviz_plugin::onButtonClicked()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.893150] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:40:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.893219] (rviz_plugin_tutorials) StderrLine: {'line': b'   40 |   if (!\x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K->wait_for_service(std::chrono::seconds(1))) {\n'}
+[3.893275] (rviz_plugin_tutorials) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.896176] (rviz_plugin_tutorials) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.896271] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.896330] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.896384] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.896436] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.896487] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.896538] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.896589] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.896640] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.896690] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.896739] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.hpp:8\x1b[m\x1b[K,\n'}
+[3.896788] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:1\x1b[m\x1b[K:\n'}
+[3.896837] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:41:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmode_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.896896] (rviz_plugin_tutorials) StderrLine: {'line': b'   41 |     RCLCPP_ERROR(\x1b[01;31m\x1b[Knode_\x1b[m\x1b[K->get_logger(), "Service not available.");\n'}
+[3.896946] (rviz_plugin_tutorials) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.896995] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:41:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.897045] (rviz_plugin_tutorials) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(node_->get_logger(), "Service not available.");\n'}
+[3.897095] (rviz_plugin_tutorials) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.897144] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:41:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.897193] (rviz_plugin_tutorials) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(node_->get_logger(), "Service not available.");\n'}
+[3.897242] (rviz_plugin_tutorials) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.897297] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:41:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.897347] (rviz_plugin_tutorials) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(node_->get_logger(), "Service not available.");\n'}
+[3.897430] (rviz_plugin_tutorials) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.901306] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:46:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ka_input_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.901448] (rviz_plugin_tutorials) StderrLine: {'line': b'   46 |   request->a = \x1b[01;31m\x1b[Ka_input_\x1b[m\x1b[K->text().toFloat();\n'}
+[3.901508] (rviz_plugin_tutorials) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.906682] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:47:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kb_input_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.906828] (rviz_plugin_tutorials) StderrLine: {'line': b'   47 |   request->b = \x1b[01;31m\x1b[Kb_input_\x1b[m\x1b[K->text().toFloat();\n'}
+[3.906889] (rviz_plugin_tutorials) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.911995] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:48:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kc_input_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.912134] (-) TimerEvent: {}
+[3.912246] (rviz_plugin_tutorials) StderrLine: {'line': b'   48 |   request->c = \x1b[01;31m\x1b[Kc_input_\x1b[m\x1b[K->text().toFloat();\n'}
+[3.912318] (rviz_plugin_tutorials) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.921748] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:49:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koperation_input_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.921907] (rviz_plugin_tutorials) StderrLine: {'line': b'   49 |   request->operation = \x1b[01;31m\x1b[Koperation_input_\x1b[m\x1b[K->text().toStdString();\n'}
+[3.921968] (rviz_plugin_tutorials) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.927210] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:51:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.927351] (rviz_plugin_tutorials) StderrLine: {'line': b'   51 |   auto future = \x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K->async_send_request(request);\n'}
+[3.927411] (rviz_plugin_tutorials) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.934762] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:54:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_button_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.934919] (rviz_plugin_tutorials) StderrLine: {'line': b'   54 |     \x1b[01;31m\x1b[Ksend_button_\x1b[m\x1b[K->setText(QString::number(response->result));\n'}
+[3.934981] (rviz_plugin_tutorials) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.939830] (rviz_plugin_tutorials) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.939972] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.940032] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.940087] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.940140] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.940192] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.940243] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.940293] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.940516] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.940601] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.940660] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.hpp:8\x1b[m\x1b[K,\n'}
+[3.940714] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:1\x1b[m\x1b[K:\n'}
+[3.940766] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:56:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmode_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.940820] (rviz_plugin_tutorials) StderrLine: {'line': b'   56 |     RCLCPP_ERROR(\x1b[01;31m\x1b[Knode_\x1b[m\x1b[K->get_logger(), "Service call failed: %s", e.what());\n'}
+[3.940871] (rviz_plugin_tutorials) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.940922] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:56:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.940974] (rviz_plugin_tutorials) StderrLine: {'line': b'   56 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(node_->get_logger(), "Service call failed: %s", e.what());\n'}
+[3.941024] (rviz_plugin_tutorials) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.941073] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:56:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.941123] (rviz_plugin_tutorials) StderrLine: {'line': b'   56 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(node_->get_logger(), "Service call failed: %s", e.what());\n'}
+[3.941174] (rviz_plugin_tutorials) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.941224] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:56:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.941282] (rviz_plugin_tutorials) StderrLine: {'line': b'   56 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(node_->get_logger(), "Service call failed: %s", e.what());\n'}
+[3.941337] (rviz_plugin_tutorials) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.941387] (rviz_plugin_tutorials) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[3.941438] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[3.941492] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:4\x1b[m\x1b[K:\n'}
+[3.941542] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.941592] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:65:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMyRvizPanel\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmy_rviz_plugin\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.941644] (rviz_plugin_tutorials) StderrLine: {'line': b'   65 | PLUGINLIB_EXPORT_CLASS(my_rviz_plugin::\x1b[01;31m\x1b[KMyRvizPanel\x1b[m\x1b[K, rviz_common::Panel)\n'}
+[3.941693] (rviz_plugin_tutorials) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.951849] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[K{anonymous}::ProxyExec0::ProxyExec0()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.952057] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:65:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_derived\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.952290] (rviz_plugin_tutorials) StderrLine: {'line': b'   65 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(my_rviz_plugin::MyRvizPanel, rviz_common::Panel)\n'}
+[3.952377] (rviz_plugin_tutorials) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.952437] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:65:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [28], const char [19])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.952495] (rviz_plugin_tutorials) StderrLine: {'line': b'   65 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(my_rviz_plugin::MyRvizPanel, rviz_common::Panel)\n'}
+[3.952548] (rviz_plugin_tutorials) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.952600] (rviz_plugin_tutorials) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[3.952651] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[3.952702] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:4\x1b[m\x1b[K:\n'}
+[3.952752] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.952816] (rviz_plugin_tutorials) StderrLine: {'line': b'  210 | void \x1b[01;36m\x1b[KregisterPlugin\x1b[m\x1b[K(const std::string & class_name, const std::string & base_class_name)\n'}
+[3.952866] (rviz_plugin_tutorials) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.952915] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.952966] (rviz_plugin_tutorials) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[3.953015] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[3.953065] (rviz_plugin_tutorials) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:4\x1b[m\x1b[K:\n'}
+[3.953114] (rviz_plugin_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/Code/ROS2/test_2/src/rviz_plugin_tutorials/src/my_rviz_panel.cpp:65:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.953164] (rviz_plugin_tutorials) StderrLine: {'line': b'   65 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(my_rviz_plugin::MyRvizPanel, rviz_common::Panel)\n'}
+[3.953213] (rviz_plugin_tutorials) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.012312] (-) TimerEvent: {}
+[4.112672] (-) TimerEvent: {}
+[4.213018] (-) TimerEvent: {}
+[4.313373] (-) TimerEvent: {}
+[4.413766] (-) TimerEvent: {}
+[4.490027] (rviz_plugin_tutorials) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rviz_plugin_tutorials.dir/build.make:160: CMakeFiles/rviz_plugin_tutorials.dir/src/my_rviz_panel.cpp.o] Error 1\n'}
+[4.490262] (rviz_plugin_tutorials) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.513938] (-) TimerEvent: {}
+[4.614293] (-) TimerEvent: {}
+[4.714647] (-) TimerEvent: {}
+[4.814997] (-) TimerEvent: {}
+[4.915347] (-) TimerEvent: {}
+[5.015703] (-) TimerEvent: {}
+[5.116061] (-) TimerEvent: {}
+[5.216456] (-) TimerEvent: {}
+[5.316853] (-) TimerEvent: {}
+[5.417206] (-) TimerEvent: {}
+[5.517563] (-) TimerEvent: {}
+[5.617916] (-) TimerEvent: {}
+[5.718269] (-) TimerEvent: {}
+[5.818626] (-) TimerEvent: {}
+[5.919060] (-) TimerEvent: {}
+[6.019399] (-) TimerEvent: {}
+[6.119765] (-) TimerEvent: {}
+[6.220333] (-) TimerEvent: {}
+[6.320720] (-) TimerEvent: {}
+[6.421044] (-) TimerEvent: {}
+[6.521414] (-) TimerEvent: {}
+[6.621762] (-) TimerEvent: {}
+[6.722107] (-) TimerEvent: {}
+[6.822464] (-) TimerEvent: {}
+[6.922840] (-) TimerEvent: {}
+[7.023193] (-) TimerEvent: {}
+[7.123541] (-) TimerEvent: {}
+[7.223879] (-) TimerEvent: {}
+[7.324212] (-) TimerEvent: {}
+[7.424560] (-) TimerEvent: {}
+[7.525150] (-) TimerEvent: {}
+[7.625504] (-) TimerEvent: {}
+[7.725861] (-) TimerEvent: {}
+[7.826220] (-) TimerEvent: {}
+[7.926583] (-) TimerEvent: {}
+[8.026938] (-) TimerEvent: {}
+[8.127332] (-) TimerEvent: {}
+[8.227688] (-) TimerEvent: {}
+[8.328035] (-) TimerEvent: {}
+[8.428386] (-) TimerEvent: {}
+[8.528761] (-) TimerEvent: {}
+[8.629270] (-) TimerEvent: {}
+[8.729679] (-) TimerEvent: {}
+[8.830173] (-) TimerEvent: {}
+[8.930585] (-) TimerEvent: {}
+[9.031142] (-) TimerEvent: {}
+[9.131657] (-) TimerEvent: {}
+[9.232093] (-) TimerEvent: {}
+[9.332531] (-) TimerEvent: {}
+[9.433042] (-) TimerEvent: {}
+[9.533594] (-) TimerEvent: {}
+[9.634027] (-) TimerEvent: {}
+[9.734474] (-) TimerEvent: {}
+[9.835003] (-) TimerEvent: {}
+[9.935378] (-) TimerEvent: {}
+[10.035728] (-) TimerEvent: {}
+[10.136147] (-) TimerEvent: {}
+[10.236560] (-) TimerEvent: {}
+[10.337025] (-) TimerEvent: {}
+[10.437370] (-) TimerEvent: {}
+[10.537714] (-) TimerEvent: {}
+[10.638084] (-) TimerEvent: {}
+[10.738461] (-) TimerEvent: {}
+[10.839004] (-) TimerEvent: {}
+[10.939419] (-) TimerEvent: {}
+[11.039781] (-) TimerEvent: {}
+[11.140133] (-) TimerEvent: {}
+[11.240447] (-) TimerEvent: {}
+[11.340793] (-) TimerEvent: {}
+[11.441154] (-) TimerEvent: {}
+[11.541504] (-) TimerEvent: {}
+[11.641881] (-) TimerEvent: {}
+[11.742410] (-) TimerEvent: {}
+[11.842747] (-) TimerEvent: {}
+[11.943095] (-) TimerEvent: {}
+[12.043444] (-) TimerEvent: {}
+[12.143794] (-) TimerEvent: {}
+[12.244167] (-) TimerEvent: {}
+[12.344688] (-) TimerEvent: {}
+[12.445152] (-) TimerEvent: {}
+[12.545540] (-) TimerEvent: {}
+[12.645955] (-) TimerEvent: {}
+[12.746258] (-) TimerEvent: {}
+[12.846613] (-) TimerEvent: {}
+[12.946966] (-) TimerEvent: {}
+[13.047369] (-) TimerEvent: {}
+[13.147882] (-) TimerEvent: {}
+[13.243365] (rviz_plugin_tutorials) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rviz_plugin_tutorials.dir/all] Error 2\n'}
+[13.244285] (rviz_plugin_tutorials) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.249889] (rviz_plugin_tutorials) CommandEnded: {'returncode': 2}
+[13.250582] (-) TimerEvent: {}
+[13.262259] (rviz_plugin_tutorials) JobEnded: {'identifier': 'rviz_plugin_tutorials', 'rc': 2}
+[13.273534] (-) EventReactorShutdown: {}

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2ded39bb91199426e820.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_rviz_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "my_rviz_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_rviz_plugin-e687beddc5c8b3da380e.json",
+					"name" : "my_rviz_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_rviz_plugin_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_rviz_plugin_autogen-b3d08034ad469980754f.json",
+					"name" : "my_rviz_plugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_rviz_plugin_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_rviz_plugin_uninstall-c29693ee2c0a96bea37f.json",
+					"name" : "my_rviz_plugin_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e2a838f97abd8bf3d6bb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jerry/Code/ROS2/test_2/build/my_rviz_plugin",
+		"source" : "/home/jerry/Code/ROS2/test_2/src/my_rviz_plugin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

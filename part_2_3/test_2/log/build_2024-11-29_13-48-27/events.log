@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (-) JobUnselected: {'identifier': 'my_rviz_plugin'}
+[0.000332] (-) JobUnselected: {'identifier': 'test_2'}
+[0.000380] (-) JobUnselected: {'identifier': 'test_2_interfaces'}
+[0.000400] (rviz_plugin_tutorials) JobQueued: {'identifier': 'rviz_plugin_tutorials', 'dependencies': OrderedDict([('test_2_interfaces', '/home/jerry/Code/ROS2/test_2/install/test_2_interfaces')])}
+[0.000422] (rviz_plugin_tutorials) JobStarted: {'identifier': 'rviz_plugin_tutorials'}
+[0.011064] (rviz_plugin_tutorials) JobEnded: {'identifier': 'rviz_plugin_tutorials', 'rc': 1}
+[0.021569] (-) EventReactorShutdown: {}

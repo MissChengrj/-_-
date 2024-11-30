@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/test_2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_2_interfaces/msg/detail/three_numbers__type_support.cpp.o"
+  "CMakeFiles/test_2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_2_interfaces/msg/detail/three_numbers__type_support.cpp.o.d"
+  "CMakeFiles/test_2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_2_interfaces/srv/detail/num__type_support.cpp.o"
+  "CMakeFiles/test_2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_2_interfaces/srv/detail/num__type_support.cpp.o.d"
+  "libtest_2_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libtest_2_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/test_2_interfaces/msg/detail/three_numbers__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/test_2_interfaces/msg/detail/three_numbers__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/test_2_interfaces/srv/detail/num__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/test_2_interfaces/srv/detail/num__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/test_2_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

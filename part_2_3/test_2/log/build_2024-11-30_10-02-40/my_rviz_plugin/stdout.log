@@ -1,0 +1,4 @@
+[ 25%] [34m[1mAutomatic MOC and UIC for target my_rviz_plugin[0m
+[ 25%] Built target my_rviz_plugin_autogen
+[ 75%] [32mBuilding CXX object CMakeFiles/my_rviz_plugin.dir/my_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/my_rviz_plugin.dir/src/my_rviz_panel.cpp.o[0m

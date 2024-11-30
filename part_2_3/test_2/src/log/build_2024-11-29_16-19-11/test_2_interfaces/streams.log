@@ -1,0 +1,57 @@
+[0.295s] Invoking command in '/home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/jerry/Code/ROS2/test_2/src/test_2_interfaces -DCMAKE_INSTALL_PREFIX=/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces
+[0.687s] -- The C compiler identification is GNU 9.5.0
+[2.583s] -- The CXX compiler identification is GNU 11.4.0
+[4.068s] -- Detecting C compiler ABI info
+[4.498s] -- Detecting C compiler ABI info - done
+[4.505s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.506s] -- Detecting C compile features
+[4.506s] -- Detecting C compile features - done
+[4.510s] -- Detecting CXX compiler ABI info
+[4.941s] -- Detecting CXX compiler ABI info - done
+[4.949s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.949s] -- Detecting CXX compile features
+[4.950s] -- Detecting CXX compile features - done
+[4.953s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.898s] -- Found Python3: /home/jerry/anaconda3/bin/python3 (found version "3.10.9") found components: Interpreter 
+[6.030s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.038s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.052s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.717s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.940s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[6.940s]   execute_process(/home/jerry/anaconda3/bin/python3 -m rosidl_adapter
+[6.940s]   --package-name test_2_interfaces --arguments-file
+[6.941s]   /home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces/rosidl_adapter__arguments__test_2_interfaces.json
+[6.941s]   --output-dir
+[6.941s]   /home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces/rosidl_adapter/test_2_interfaces
+[6.941s]   --output-file
+[6.941s]   /home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces/rosidl_adapter/test_2_interfaces.idls)
+[6.941s]   returned error code 1:
+[6.941s] 
+[6.941s]   Traceback (most recent call last):
+[6.941s] 
+[6.942s]     File "/home/jerry/anaconda3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[6.942s]       return _run_code(code, main_globals, None,
+[6.942s]     File "/home/jerry/anaconda3/lib/python3.10/runpy.py", line 86, in _run_code
+[6.942s]       exec(code, run_globals)
+[6.942s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[6.942s]       sys.exit(main())
+[6.942s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[6.942s]       abs_idl_file = convert_to_idl(
+[6.943s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 23, in convert_to_idl
+[6.943s]       from rosidl_adapter.srv import convert_srv_to_idl
+[6.943s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 16, in <module>
+[6.943s]       from rosidl_adapter.resource import expand_template
+[6.943s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[6.943s]       import em
+[6.943s] 
+[6.943s]   ModuleNotFoundError: No module named 'em'
+[6.943s] 
+[6.944s] Call Stack (most recent call first):
+[6.944s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[6.944s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[6.944s] 
+[6.944s] [0m
+[6.944s] -- Configuring incomplete, errors occurred!
+[6.944s] See also "/home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces/CMakeFiles/CMakeOutput.log".
+[6.949s] Invoked command in '/home/jerry/Code/ROS2/test_2/src/build/test_2_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/jerry/Code/ROS2/test_2/install/test_2_interfaces:/home/jerry/Code/ROS2/test_2/install/rviz_add_multiply_plugin_py:/home/jerry/Code/ROS2/test_2/install/test_2:/opt/ros/humble:/home/jerry/Code/ROS2/test_2/install/rviz_plugin_tutorials CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/jerry/Code/ROS2/test_2/src/test_2_interfaces -DCMAKE_INSTALL_PREFIX=/home/jerry/Code/ROS2/test_2/src/install/test_2_interfaces
