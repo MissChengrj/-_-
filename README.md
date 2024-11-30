@@ -114,7 +114,7 @@ ros2 run rviz2 rviz2
 
 出现插件
 
-在Qt界面A, B, C中输入数字，Operation可选"sum", "product"
+在Qt界面A, B, C中输入数字，Operation可选"sum", "product"（有点小BUG没来得及改）
 
 可在ser节点的terminal中观察到结果
 
