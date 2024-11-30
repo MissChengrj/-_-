@@ -62,7 +62,7 @@ git clone https://github.com/MissChengrj/-_-.git
 编译
 
 ```
-cd test_2
+cd -_-/part_2_3/test_2
 
 colcon build
 ```
